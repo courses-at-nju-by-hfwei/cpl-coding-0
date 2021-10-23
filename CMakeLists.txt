@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.20)
+project(c_pl_coding_0 C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_subdirectory(0-hello)
+add_subdirectory(1-types-io)
+add_subdirectory(2-if-for-array)
+add_subdirectory(3-loops)
