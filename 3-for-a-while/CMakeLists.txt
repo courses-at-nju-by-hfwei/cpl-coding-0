@@ -7,6 +7,3 @@ add_executable(selection-sort selection-sort.c) # while for reading inputs; doub
 add_executable(palindrome palindrome.c)   # while; comma expression in for; break
 add_executable(binary-search binary-search.c) # while; break
 add_executable(digits digits.c) # while; do-while
-
-add_executable(counting-if counting-if.c) # while for reading inputs; if
-add_executable(counting-switch counting-switch.c) # switch/case

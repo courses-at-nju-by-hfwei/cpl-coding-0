@@ -8,7 +8,6 @@
  */
 
 #include <stdio.h>
-#include <ctype.h>
 #define LEN 10
 
 int main() {
