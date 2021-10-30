@@ -2,6 +2,8 @@
  * file: game-of-life.c
  *
  * Simulate "Conway's Game of Life"
+ * See https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+ * Play with it: https://playgameoflife.com/
  *
  * Created by hengxin on 10/30/21.
  */
@@ -66,6 +68,11 @@ int main() {
       }
       printf("\n");
     }
+
+    /**
+     * sleep
+     * see https://stackoverflow.com/a/10923084
+     */
     sleep(2);
     /**
      * Clear the console (in Linux)
@@ -85,7 +92,6 @@ int main() {
     }
 
   }
-
 
   return 0;
 }

@@ -5,10 +5,10 @@
 - `bubble-sort.c`: double `for`
 
 ## Multi-dimensional Arrays
-- `tic-toc-toe.c`
+- `matrix-mult.c`
 - `game-of-life.c`
 
 ## Backup
 - shellsort (K&R; P62)
-- `matrix-mult.c`
+- `tic-toc-toe.c`
 - `magic-square.c`

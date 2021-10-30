@@ -35,6 +35,11 @@ int main() {
       break;
     }
   }
+
+  /**
+   * timing
+   * see https://stackoverflow.com/a/459704
+   */
   clock_t diff = clock() - start;
   int msec = diff * 1000 / CLOCKS_PER_SEC;
   printf("Sorting time taken %d seconds %d milliseconds.\n", msec/1000, msec%1000);
