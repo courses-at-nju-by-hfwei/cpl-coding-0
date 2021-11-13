@@ -2,7 +2,6 @@
 
 ## Functions
 - `leap.c`: function definition, function call, function declaration; pass by value
-- `min.c`: 
 - `prime.c`: multiple return statements
 
 - `stars.c`: void
@@ -18,10 +17,6 @@
 
 - `game-of-life.c`: pass by value + array as parameter; multi-dimensional array
 - `guess.c`: left as an exercise
-
-## Recursion
-- `sum.c`: simple recursion
-- `gcd.c`: greatest common divisor
 
 ## Backup
 - `string.h`
