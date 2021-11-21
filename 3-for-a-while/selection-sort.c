@@ -4,8 +4,8 @@
 
 #include <stdio.h>
 
-#define MAX 20
-int numbers[MAX] = {0};
+#define LEN 20
+int numbers[LEN] = {0};
 
 int main() {
   /**

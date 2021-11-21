@@ -5,6 +5,9 @@
 - `sum.c`
 - `fib.c`
 - `gcd.c`
-- `merge-sort.c`
 - `binary-search.c`
+- `merge-sort.c`
+
+## Backup
 - `hanoi.c`
+- `quicksort.c`

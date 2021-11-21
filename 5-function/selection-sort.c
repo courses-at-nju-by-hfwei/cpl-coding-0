@@ -4,8 +4,8 @@
 
 #include <stdio.h>
 
-#define MAX 20
-int numbers[MAX] = {0};
+#define LEN 20
+int numbers[LEN] = {0};
 
 void Swap(int left, int right);
 void Print(const int arr[], int len);

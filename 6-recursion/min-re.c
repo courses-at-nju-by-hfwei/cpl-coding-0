@@ -11,8 +11,8 @@
 #define NUM 5
 int numbers[NUM] = {0};
 
-int Min(const int numbers[], int len);
-int Min_Of_Two(int a , int b);
+int Min(const int nums[], int len);
+int MinOfTwo(int a , int b);
 
 int main() {
   for (int i = 0; i < NUM; i++) {
@@ -24,14 +24,14 @@ int main() {
   return 0;
 }
 
-int Min(const int numbers[], int len) {
+int Min(const int nums[], int len) {
   if (len == 1) {
-    return numbers[0];
+    return nums[0];
   }
 
-  return Min_Of_Two(numbers[len - 1], Min(numbers, len - 1));
+  return MinOfTwo(nums[len - 1], Min(nums, len - 1));
 }
 
-int Min_Of_Two(int a, int b) {
+int MinOfTwo(int a, int b) {
   return a > b ? b : a;
 }

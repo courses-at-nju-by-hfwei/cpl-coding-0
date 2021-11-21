@@ -4,8 +4,8 @@
 
 #include <stdio.h>
 
-#define MAX 21
-char string[MAX] = "";
+#define LEN 21
+char string[LEN] = "";
 
 int main() {
   scanf("%20s", string);

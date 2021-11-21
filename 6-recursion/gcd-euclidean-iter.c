@@ -1,5 +1,10 @@
 /**
- * Recursively computing the greatest common divisor of two integers
+ * file: gcd.c
+ *
+ * Iteratively computing the greatest common divisor of two integers.
+ *
+ * Euclidean algorithm:
+ * gcd(a, b) = gcd(b, a % b)
  *
  * Created by hengxin on 11/13/21.
  */
@@ -17,12 +22,13 @@ int main() {
   return 0;
 }
 
-// gcd(130, 124) = 2
-// gcd(662, 414) = 2
 int GCD(int a, int b) {
-  if (b == 0) {
-    return a;
+  int tmp;
+  while (b != 0) {
+    tmp = b;
+    b = a % b;
+    a = tmp;
   }
 
-  return GCD(b, a % b);
+  return a;
 }

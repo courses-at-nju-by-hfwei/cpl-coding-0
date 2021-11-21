@@ -9,8 +9,8 @@
 #include <stdio.h>
 #include <limits.h>
 
-#define MAX 93
-long long fibs[MAX] = {0, 1};
+#define LEN 93
+long long fibs[LEN] = {0, 1};
 
 int main() {
   int n;

@@ -35,8 +35,6 @@ M
 3-for-a-while/binary-search.c,c/4/c419af5e061910acbc7fc199869ad3a6de72b4e6
 F
 3-for-a-while/digits.c,9/1/912a437e6995f08c116b1ffdb341ebf5d987d91f
-?
-4-loops/merge.c,4/e/4e51e1bfa878cd816ecff955f6e1ded1d8405bf7
 F
 4-loops/game-of-life.c,c/8/c87c1536705fbacbfa02d96e2d38026e600ca2d9
 B
@@ -55,3 +53,13 @@ K
 5-function/selection-sort.c,2/d/2da279a89c76fcd5897b20a40cd5bbbdf4e14237
 J
 5-function/binary-search.c,7/b/7b5786813c4da74478f6dbba39ecd7d41dd2b520
+G
+5-function/palindrome.c,b/2/b2dfe802927213b290653df7fe89edffea3b4baf
+B
+5-function/merge.c,7/0/70c29dbbfd62ec8c68e965e4c2a84f59fcc1cb3b
+N
+6-recursion/gcd-euclidean-re.c,9/5/95b2ef3be70a54c4bb1132d76d794857fa70b745
+D
+6-recursion/fib-re.c,c/f/cfe7c0db6a0a075e38583ace0a1775940e292870
+F
+6-recursion/fib-iter.c,3/e/3ef501d3325dfba804718ca39c659b15e55df3f3
