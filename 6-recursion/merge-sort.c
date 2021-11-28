@@ -13,6 +13,15 @@
 int numbers[LEN] = {4, 2, 8, 6, 0, 5, 1, 7, 3, 9};
 
 void MergeSort(int nums[], int left, int right);
+
+/**
+ * Merge two subarrays nums[left .. mid] and nums[mid + 1 .. right]
+ *
+ * @param nums
+ * @param left
+ * @param mid
+ * @param right
+ */
 void Merge(int nums[], int left, int mid, int right);
 
 int main() {
@@ -37,14 +46,6 @@ void MergeSort(int nums[], int left, int right) {
   Merge(nums, left, mid, right);
 }
 
-/**
- * Merge two subarrays nums[left .. mid] and nums[mid + 1 .. right]
- *
- * @param nums
- * @param left
- * @param mid
- * @param right
- */
 void Merge(int nums[], int left, int mid, int right) {
   /**
    * Create two temporary arrays
