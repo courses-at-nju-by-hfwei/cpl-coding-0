@@ -83,3 +83,9 @@ A
 7-data-types/fp.c,1/b/1beab42f3e95d8deadda65853c8bd0e4ead6e047
 C
 7-data-types/loop.c,9/b/9b5c68e2b77022f2f314ffc41a66fb37b40a24c6
+H
+6-recursion/bsearch-re.c,7/9/79d3aeda919aaa2f55d10510964497619798728c
+H
+6-recursion/merge-sort.c,8/b/8b3a1a095f8118e59d6275ea8644f25707b35727
+A
+5-function/swap.c,6/f/6fc12dbaaf9080ba505fc16ef75bc980cd45d1eb

@@ -7,9 +7,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//#define LEN 20
-//int numbers[LEN] = {0};
-
 void Swap(int *left, int *right);
 void Print(const int arr[], int len);
 
@@ -19,6 +16,7 @@ void Print(const int arr[], int len);
  * @param arr The array to be sorted.
  * @param len The length of the array.
  */
+//void SelectionSort(int arr[], int len);
 void SelectionSort(int *arr, int len);
 
 int main() {
@@ -28,9 +26,6 @@ int main() {
    * See: https://youtrack.jetbrains.com/issue/CPP-5704
    * Use "Terminal" instead.
    */
-//  int len = -1;
-//  while (scanf("%d", &numbers[++len]) != EOF);
-
   int len = 0;
   printf("Please enter the length of the array to sort.\n");
   scanf("%d", &len);
@@ -43,7 +38,8 @@ int main() {
   }
 
   for (int i = 0; i < len; i++) {
-    scanf("%d", &numbers[i]);
+//    scanf("%d", &numbers[i]);
+    scanf("%d", numbers + i);
   }
 
   SelectionSort(numbers, len);

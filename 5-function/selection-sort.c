@@ -55,7 +55,7 @@ void SelectionSort(int arr[], int len) {
     }
 
     /**
-     * swap numbers[i] and numbers[min_index]
+     * swap arr[i] and arr[min_index]
      */
     int tmp = arr[i];
     arr[i] = arr[min_index];

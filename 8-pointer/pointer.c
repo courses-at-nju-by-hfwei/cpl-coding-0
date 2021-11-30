@@ -42,5 +42,9 @@ int main() {
   printf("radius = %d\n", *ptr_radius);
   printf("radius = %d\n", radius_3);
 
+  int arr[5] = {0};
+  int *ptr_array = arr;
+  ptr_array++;
+
   return 0;
 }
