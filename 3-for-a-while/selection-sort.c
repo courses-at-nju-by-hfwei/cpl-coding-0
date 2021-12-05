@@ -18,7 +18,7 @@ int main() {
   while (scanf("%d", &numbers[++len]) != EOF);
 
   /**
-   * Print it out
+   * PrintStrs it out
    */
   for (int i = 0; i < len; i++) {
     printf("%d ", numbers[i]);
@@ -47,7 +47,7 @@ int main() {
     numbers[min_index] = tmp;
 
     /**
-     * Print it out again
+     * PrintStrs it out again
      */
     for (int i = 0; i < len; i++) {
       printf("%d ", numbers[i]);

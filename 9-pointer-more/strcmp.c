@@ -6,6 +6,15 @@
 
 #include <stdio.h>
 
+/**
+ * Compare two strings.
+ *
+ * @param s1 The first string to compare with.
+ * @param s2 The second string to compare with.
+ * @return 0 if s1 equals to s2;
+ *         positive if s1 is greater than s2;
+ *         negative if s1 is less than s2
+ */
 int StrCmp(const char *s1, const char *s2);
 int StrCmpStd(const char *s1, const char *s2);
 
@@ -20,7 +29,7 @@ int main() {
 }
 
 int StrCmp(const char *s1, const char *s2) {
-  while (*s1 == *s2 && *s1 != '\0' && *s2 != '\0') {
+  while (*s1 == *s2 && (*s1 != '\0' && *s2 != '\0')) {
     s1++;
     s2++;
   }
@@ -39,6 +48,6 @@ int StrCmpStd(const char *s1, const char *s2) {
     }
   }
 
-  return ((* (unsigned char *) s1)
-    < ((* (unsigned char *) s2))) ? -1 : 1;
+  return (* (const unsigned char *) s1)
+    < (* (const unsigned char *) s2) ? -1 : 1;
 }
