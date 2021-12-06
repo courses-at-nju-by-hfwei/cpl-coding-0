@@ -91,3 +91,11 @@ F
 7-data-types/compare.c,4/e/4ecf7db7b165554dc1240958862d62eaa405dbbb
 C
 7-data-types/sums.c,4/d/4df228a2e638f7cafd6f5b8632ded7d535c3e488
+C
+7-data-types/loop.c,9/b/9b5c68e2b77022f2f314ffc41a66fb37b40a24c6
+B
+8-pointer/strlen.c,7/c/7cf7de3400768bddd39691697d58bb5371fef885
+J
+8-pointer/selection-sort.c,0/8/08363ca627256fde896bffff85f9f5f945b38150
+U
+%9-pointer-more/game-of-life-pointer.c,1/3/132fb6b70d20e09ed1b8068c3789316b8b7dae07

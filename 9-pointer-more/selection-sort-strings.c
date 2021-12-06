@@ -11,6 +11,7 @@
 void SelectionSort(char *str[], int len);
 void Swap(char **left, char **right);
 void SwapWrong(char *left, char *right);
+void SwapWrong2(char *left, char *right);
 void PrintStrs(const char *str[], int len);
 
 int main() {
@@ -59,7 +60,22 @@ void Swap(char **left, char **right) {
   *right = tmp;
 }
 
+/**
+ * segment fault
+ * SwapWrong(str[i], str[min_index]);
+ */
 void SwapWrong(char *left, char *right) {
+  char tmp = *left;
+  *left = *right;
+  *right = tmp;
+}
+
+/**
+ * does not work
+ * (it is performed on copies of str[i] and str[min_index])
+ * SwapWrong2(str[i], str[min_index]);
+ */
+void SwapWrong2(char *left, char *right) {
   char tmp = *left;
   *left = *right;
   *right = tmp;

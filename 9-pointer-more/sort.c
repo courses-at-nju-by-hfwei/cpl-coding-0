@@ -12,7 +12,7 @@
 #define LEN 10
 
 int CompareInts(const void *left, const void *right);
-void PrintInts(int integers[], int len);
+void PrintInts(const int integers[], int len);
 
 int CompareStrs(const void *left, const void *right);
 void PrintStrs(const char *str[], int len);
@@ -70,12 +70,12 @@ int CompareInts(const void *left, const void *right) {
 }
 
 int CompareStrs(const void *left, const void *right) {
-  char *const *pp1 = left;
-  char *const *pp2 = right;
+  char * const *pp1 = left;
+  char * const *pp2 = right;
   return strcmp(*pp1, *pp2);
 }
 
-void PrintInts(int integers[], int len) {
+void PrintInts(const int integers[], int len) {
   printf("\n");
   for (int i = 0; i < len; ++i) {
     printf("%d ", integers[i]);
