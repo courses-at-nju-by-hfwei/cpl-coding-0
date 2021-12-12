@@ -2,6 +2,9 @@
  * file: sort.c
  *
  * Created by hengxin on 12/5/21.
+ *
+ * A good function pointer example on Riemann integration:
+ * https://en.wikipedia.org/wiki/Function_pointer
  */
 
 #include <stdio.h>
@@ -28,8 +31,21 @@ int main() {
    * void qsort( void *ptr, size_t count, size_t size,
             int (*comp)(const void *, const void *) );
    */
-  qsort(integers, size_of_integers, sizeof *integers, CompareInts);
+  int (*comp)(const void*, const void*) = CompareInts;
+  printf("%p\n", comp);
+  printf("%p\n", *comp);
+  printf("%p\n", CompareInts);
+  printf("%p\n", &CompareInts);
+
+  qsort(integers, size_of_integers, sizeof *integers, comp);
   PrintInts(integers, size_of_integers);
+
+  /**
+   * You can call functions indirectly via function pointers.
+   */
+  int a = 10;
+  int b = 20;
+  printf("%d %s %d\n", a, comp(&a, &b) > 0 ? ">" : "<=", b);
 
   /**
    * Sorting an array of strings
@@ -48,7 +64,8 @@ int main() {
   };
   int size_of_names = sizeof names / sizeof *names;
 
-  qsort(names, size_of_names, sizeof *names, CompareStrs);
+  comp = CompareStrs;
+  qsort(names, size_of_names, sizeof *names, comp);
   PrintStrs(names, LEN);
 }
 
@@ -64,9 +81,9 @@ int CompareInts(const void *left, const void *right) {
     return 1;
   }
 
-  // return arg1 - arg2; // erroneous shortcut (fails if INT_MIN is present)
-
   return 0;
+
+//   return int_left - int_right; // erroneous shortcut (fails if INT_MIN is present)
 }
 
 int CompareStrs(const void *left, const void *right) {

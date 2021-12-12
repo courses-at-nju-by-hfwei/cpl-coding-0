@@ -6,6 +6,7 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <malloc.h>
 #define LEN 10
 
 void SelectionSort(char *str[], int len);
