@@ -8,6 +8,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+typedef enum gender {
+  MALE, FEMALE
+} Gender;
+
 typedef struct score {
   int c_score;
   int java_score;
@@ -16,6 +20,9 @@ typedef struct score {
 
 typedef struct musician {
   char *name;
+//  enum {MALE, FEMALE} gender;
+  Gender gender;
+
   char *album;
 
   Score score;
@@ -33,12 +40,14 @@ int main() {
 //  int python_score = 20;
 
   Musician luo = {
-      "Luo Dayou", "之乎者也",
+      "Luo Dayou", MALE,
+      "之乎者也",
       20, 30, 40
   };
 
   Musician cui = {
       .name = "Cui Jian",
+      .gender = MALE,
       .album = "新长征路上的摇滚",
       .score = {
           .c_score = 10,
@@ -49,6 +58,7 @@ int main() {
 
   Musician zhang = {
       .name = "Zhang Chu",
+      .gender = MALE,
 //      .album = "一颗不肯媚俗的心",
       .score = {
         .c_score = 0,
@@ -65,6 +75,9 @@ int main() {
 
   Musician li = zhang;
   li.name = "Li Chaoxi";
+  // It is even possible for an enum variable
+  // to hold an integer that does not represent any of the enumeration values.
+  li.gender = 'F';
   strcpy(li.album, "两颗不肯媚俗的心");
 
   PrintMusician(&li);
@@ -86,8 +99,10 @@ int main() {
 
 void PrintMusician(const Musician *m) {
   printf("\n");
-  printf("%s\n%s\n%d\t%d\t%d\n",
-         m->name, m->album,
+  printf("%s\n%c\n%s\n%d\t%d\t%d\n",
+         m->name,
+         m->gender == MALE ? 'M' : 'F',
+         m->album,
          m->score.c_score, m->score.java_score, m->score.python_score);
   printf("\n");
 }
