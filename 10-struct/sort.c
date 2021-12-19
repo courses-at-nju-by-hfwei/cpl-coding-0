@@ -12,8 +12,6 @@
 #include <limits.h>
 #include <string.h>
 
-#define LEN 10
-
 int CompareInts(const void *left, const void *right);
 void PrintInts(const int integers[], int len);
 
@@ -31,7 +29,7 @@ int main() {
    * void qsort( void *ptr, size_t count, size_t size,
             int (*comp)(const void *, const void *) );
    */
-  int (*comp)(const void*, const void*) = CompareInts;
+  int (*comp)(const void *, const void *) = CompareInts;
   printf("%p\n", comp);
   printf("%p\n", *comp);
   printf("%p\n", CompareInts);
@@ -50,7 +48,7 @@ int main() {
   /**
    * Sorting an array of strings
    */
-  const char *names[LEN] = {
+  const char *names[] = {
       "Luo Dayou",
       "Cui Jian",
       "Dou Wei",
@@ -66,7 +64,7 @@ int main() {
 
   comp = CompareStrs;
   qsort(names, size_of_names, sizeof *names, comp);
-  PrintStrs(names, LEN);
+  PrintStrs(names, size_of_names);
 }
 
 int CompareInts(const void *left, const void *right) {

@@ -29,16 +29,13 @@ typedef struct musician {
 } Musician;
 
 void PrintMusician(const Musician *m);
+Musician MakeMusician(char *name, Gender gender,
+                      char *album,
+                      int c_score, int java_score, int python_score);
 int TotalScore(const Musician *m);
 int CompareMusicians(const void *m1, const void *m2);
 
 int main() {
-//  char *name = "Luo Dayou";
-//  char *album = NULL;
-//  int c_score = 0;
-//  int java_score = 10;
-//  int python_score = 20;
-
   Musician luo = {
       "Luo Dayou", MALE,
       "之乎者也",
@@ -69,20 +66,6 @@ int main() {
   zhang.album = malloc(50 * sizeof *zhang.album);
   strcpy(zhang.album, "一颗不肯媚俗的心");
 
-  PrintMusician(&luo);
-  PrintMusician(&cui);
-  PrintMusician(&zhang);
-
-  Musician li = zhang;
-  li.name = "Li Chaoxi";
-  // It is even possible for an enum variable
-  // to hold an integer that does not represent any of the enumeration values.
-  li.gender = 'F';
-  strcpy(li.album, "两颗不肯媚俗的心");
-
-  PrintMusician(&li);
-  PrintMusician(&zhang);
-
   Musician musicians[] = {luo, cui, zhang};
   int len = sizeof musicians / sizeof *musicians;
   for (int i = 0; i < len; i++) {
@@ -93,6 +76,17 @@ int main() {
   for (int i = 0; i < len; i++) {
     PrintMusician(musicians + i);
   }
+
+  Musician li = zhang;
+  li.name = "Li Chaochao";
+  // It is even possible for an enum variable
+  // to hold an integer that does not represent any of the enumeration values.
+  li.gender = 'M';
+  // Danger! Now li.album and zhang.album point to the same album.
+  strcpy(li.album, "两颗不肯媚俗的心");
+
+  PrintMusician(&li);
+  PrintMusician(&zhang);
 
   free(zhang.album);
 }
@@ -108,9 +102,39 @@ void PrintMusician(const Musician *m) {
 }
 
 int CompareMusicians(const void *m1, const void *m2) {
-  return TotalScore(m1) - TotalScore(m2);
+  int score_1 = TotalScore(m1);
+  int score_2 = TotalScore(m2);
+
+  if (score_1 > score_2) {
+    return 1;
+  }
+
+  if (score_1 < score_2) {
+    return -1;
+  }
+
+  return 0;
 }
 
 int TotalScore(const Musician *m) {
   return m->score.c_score + m->score.java_score + m->score.python_score;
+}
+
+Musician MakeMusician(char *name, Gender gender,
+                      char *album,
+                      int c_score, int java_score, int python_score) {
+  Musician m;
+  m.name = malloc(strlen(name) + 1);
+  strcpy(m.name, name);
+
+  m.gender = gender;
+
+  m.album = malloc(strlen(album) + 1);
+  strcpy(m.album, album);
+
+  m.score.c_score = c_score;
+  m.score.java_score = java_score;
+  m.score.python_score = python_score;
+
+  return m;
 }
