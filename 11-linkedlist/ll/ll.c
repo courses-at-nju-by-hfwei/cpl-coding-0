@@ -86,6 +86,7 @@ void Delete(LinkedList *list, Node *prev) {
   if (cur == prev) {
     list->head = NULL;
     list->tail = NULL;
+    return;
   }
 
   if (cur == list->head) {
