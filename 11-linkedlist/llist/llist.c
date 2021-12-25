@@ -51,6 +51,7 @@ void Delete(Node *prev) {
 
   if (cur == prev) {
     head = tail = NULL;
+    free(cur);
     return;
   }
 
