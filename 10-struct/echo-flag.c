@@ -1,5 +1,5 @@
 /**
- * file: echo-flag.c
+ * file: toupper-flag.c
  *
  * Created by hengxin on 12/12/21.
  */
@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
           escaped = 0;
           break;
         default:
-          printf("echo: illegal flag '%c'\n"
+          printf("toupper: illegal flag '%c'\n"
                  "Use -e or -E.\n", flag);
           return 0;
       }

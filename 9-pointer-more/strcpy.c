@@ -77,6 +77,11 @@ void StrCpy5(char *dest, const char *src) {
   while ((*dest++ = *src++));
 }
 
+// for exam
+void f(char *dest, const char *src) {
+  while ((*dest++ = *src++));
+}
+
 /**
  * @return The dest pointer
  */

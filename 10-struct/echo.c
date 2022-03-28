@@ -1,5 +1,5 @@
 /**
- * file: echo.c
+ * file: toupper.c
  *
  * Echo program (command-line) arguments.
  *

@@ -20,7 +20,7 @@ int main() {
    * This string literal "Hello World!" is stored in the text segment
    */
   char *ptr_msg = "Hello World!";
-  *ptr_msg = 'N';
+//  *ptr_msg = 'N';
 
   printf("The length of the message \"%s\" = %d\n",
          msg, StrLen(msg));
@@ -38,6 +38,14 @@ int StrLen(const char *s) {
 }
 
 size_t StrLenStd(const char *s) {
+  const char *sc;
+  for (sc = s; *sc != '\0'; sc++);
+
+  return (sc - s);
+}
+
+// for exam
+size_t f(const char *s) {
   const char *sc;
   for (sc = s; *sc != '\0'; sc++);
 

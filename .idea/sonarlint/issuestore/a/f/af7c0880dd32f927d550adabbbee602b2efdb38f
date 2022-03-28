@@ -1,0 +1,4 @@
+
+8c:S1481"unused variable 'ptr_msg'(Ðñý¬úÿÿÿÿ8Ñü¶þü/
+@c:CommentedCode"Remove the commented out code.(’™õº8äü¶þü/
+|c:S5350"]Make the type of this variable a pointer-to-const. The current type of "ptr_msg" is "char *".(Ðñý¬úÿÿÿÿ8åü¶þü/

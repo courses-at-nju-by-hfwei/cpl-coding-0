@@ -62,7 +62,7 @@ int main() {
   } while (swapped);
 
   /**
-   * timing
+   * toupper
    * see https://stackoverflow.com/a/459704
    */
   clock_t diff = clock() - start;

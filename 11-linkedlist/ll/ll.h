@@ -10,7 +10,7 @@
 #define C_PL_CODING_0_11_LINKEDLIST_LL_LL_H_
 
 typedef struct node {
-  int val;  // void *val;
+  int val;
   struct node *next;
 } Node;
 
