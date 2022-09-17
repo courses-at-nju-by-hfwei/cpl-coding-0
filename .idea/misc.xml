@@ -3,7 +3,7 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
   <component name="CidrRootsConfiguration">
     <sourceRoots>
-      <file path="$PROJECT_DIR$/11-linkedlist/ll" />
+      <file path="$PROJECT_DIR$/2021-CPL/11-linkedlist/ll" />
     </sourceRoots>
   </component>
 </project>
