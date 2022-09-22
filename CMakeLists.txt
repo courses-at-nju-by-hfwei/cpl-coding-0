@@ -4,4 +4,5 @@ project(cpl_coding_0 C)
 set(CMAKE_C_STANDARD 11)
 
 add_subdirectory(2021-CPL)
+add_subdirectory(2022-CPL)
 add_subdirectory(exam)

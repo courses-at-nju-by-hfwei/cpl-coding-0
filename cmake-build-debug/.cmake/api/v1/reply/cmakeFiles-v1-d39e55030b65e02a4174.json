@@ -159,14 +159,17 @@
 			"path" : "2021-CPL/12-networking/CMakeLists.txt"
 		},
 		{
+			"path" : "2022-CPL/CMakeLists.txt"
+		},
+		{
 			"path" : "exam/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/cpl-coding-0/cmake-build-debug",
-		"source" : "D:/cpl-coding-0"
+		"build" : "D:/cpl/cpl-coding-0/cmake-build-debug",
+		"source" : "D:/cpl/cpl-coding-0"
 	},
 	"version" : 
 	{
