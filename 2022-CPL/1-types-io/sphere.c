@@ -2,6 +2,10 @@
 // file: sphere.c
 // Created by hfwei on 2022/9/29.
 //
+// -l: library; m: math.h
+// gcc sphere.c -o sphere -lm
+// target_link_libraries(2022-sphere m)
+//
 
 #include <stdio.h>
 #include <math.h>

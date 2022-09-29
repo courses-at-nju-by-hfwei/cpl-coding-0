@@ -1,7 +1,0 @@
-
-[c:S5276r"<implicit conversion loses integer precision: 'int' to 'char'(é¯Î¢ýÿÿÿÿ8ãþ¶þü/
-fc:S5276j"Limplicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'(Œû €8äþ¶þü/
-:c:S1763}"code will never be executed(ŸÞšÁüÿÿÿÿ8äþ¶þü/
-nc:S3776"TRefactor this function to reduce its Cognitive Complexity from 37 to the 25 allowed.(Ôˆ™“8íþ¶þü/
-kc:S134Q"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(¶ëÆËüÿÿÿÿ8îþ¶þü/
-Kc:S886O"2Refactor this loop so that it is less error-prone.(û’ÏÁ8îþ¶þü/

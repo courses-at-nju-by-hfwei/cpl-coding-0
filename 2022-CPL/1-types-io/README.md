@@ -20,3 +20,17 @@
     - `pow`
     - `-lm`
     - `target_link_libraries(sphere m)`
+- `mol.c` 
+  - `e/E`
+  - `mass * 1.0`
+  - `printf`
+    - `%f`
+    - `%e/%E`
+    - `%.3e/%.3E`
+- `admin.c`
+  - c string
+  - `char`
+  - `\t`
+  - `%.2d`
+  - `%.3s`
+  - `%%`

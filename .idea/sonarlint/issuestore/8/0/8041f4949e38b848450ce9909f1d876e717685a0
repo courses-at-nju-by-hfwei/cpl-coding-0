@@ -1,6 +1,0 @@
-
-^c:S819t"Eimplicitly declaring library function 'toupper' with type 'int (int)'(Ó»ø©8¶ü¶þü/
-Vc:S5276t"<implicit conversion loses integer precision: 'int' to 'char'(Ó»ø©8·ü¶þü/
-kc:S5276o"Limplicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'(×½ùÿÿÿÿ8¸ü¶þü/
-kc:S5276w"Limplicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'(ÁÂ¤þÿÿÿÿ8¸ü¶þü/
-;c:S1763…"code will never be executed(ŸÞšÁüÿÿÿÿ8¹ü¶þü/
