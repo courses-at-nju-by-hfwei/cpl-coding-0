@@ -1,5 +1,5 @@
 //
-// Given a radius (100100) of a sphere,
+// Given a radius (100) of a sphere,
 // to compute its surface area and volume.
 //
 // Created by hengxin on 10/10/21.

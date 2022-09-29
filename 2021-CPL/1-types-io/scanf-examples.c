@@ -29,5 +29,19 @@ int main() {
 //
 //  scanf("%2d%f%*d %[0123456789]", &i, &x, name);
 
+//  char thx[4];
+//  int b;
+//  int c;
+//  sscanf("thx 1138", "%s%2o%d", thx, &b, &c);
+//  printf("%s\t%d\t%d\n", thx, b, c);
+
+//  int a;
+//  scanf("%d", &a);
+//  printf("a = %d\n", a);
+
+  // NO: char name[3] = "Luo";
+  char name[4] = "Luo";
+  printf("%s\n", name);
+
   return 0;
 }
