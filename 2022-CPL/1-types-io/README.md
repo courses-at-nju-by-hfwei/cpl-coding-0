@@ -1,0 +1,22 @@
+# 1-types-io
+
+- `circle.c`
+  - declaration/definition
+  - `printf`
+    - `%f`
+    - `%.2f`
+  - initialization
+  - operator, expression, assignment statement
+- `sphere.c`
+  - `printf`
+    - `%.4f`
+    - `%15.4f`
+    - `%-15.4f`
+  - `3 / 4`
+    - `3.0 / 4`
+    - `1.0 * 3 / 4`
+    - `... * 3 / 4`
+  - `math.h`
+    - `pow`
+    - `-lm`
+    - `target_link_libraries(sphere m)`

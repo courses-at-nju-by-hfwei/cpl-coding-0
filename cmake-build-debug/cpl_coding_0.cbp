@@ -5,7 +5,7 @@
 		<Option title="cpl_coding_0"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\2021-CPL\;CMake Files\2021-CPL\0-hello\;CMake Files\2021-CPL\1-types-io\;CMake Files\2021-CPL\2-if-for-array\;CMake Files\2021-CPL\3-for-a-while\;CMake Files\2021-CPL\4-loops\;CMake Files\2021-CPL\5-function\;CMake Files\2021-CPL\6-recursion\;CMake Files\2021-CPL\7-data-types\;CMake Files\2021-CPL\8-pointer\;CMake Files\2021-CPL\9-pointer-more\;CMake Files\2021-CPL\10-struct\;CMake Files\2021-CPL\11-linkedlist\;CMake Files\2021-CPL\12-networking\;CMake Files\2022-CPL\;CMake Files\exam\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\2021-CPL\;CMake Files\2021-CPL\0-hello\;CMake Files\2021-CPL\1-types-io\;CMake Files\2021-CPL\2-if-for-array\;CMake Files\2021-CPL\3-for-a-while\;CMake Files\2021-CPL\4-loops\;CMake Files\2021-CPL\5-function\;CMake Files\2021-CPL\6-recursion\;CMake Files\2021-CPL\7-data-types\;CMake Files\2021-CPL\8-pointer\;CMake Files\2021-CPL\9-pointer-more\;CMake Files\2021-CPL\10-struct\;CMake Files\2021-CPL\11-linkedlist\;CMake Files\2021-CPL\12-networking\;CMake Files\2022-CPL\;CMake Files\2022-CPL\1-types-io\;CMake Files\exam\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/cpl/cpl-coding-0/cmake-build-debug"/>
@@ -2925,9 +2925,9 @@
 					<DistClean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2021-CPL/12-networking/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="2022-hello">
-				<Option output="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/2022-hello.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL"/>
+			<Target title="2022-circle">
+				<Option output="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/2022-circle.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -2938,15 +2938,15 @@
 					<Add directory="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 2022-hello"/>
-					<CompileFile command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 2022-circle"/>
+					<CompileFile command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="2022-hello/fast">
-				<Option output="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/2022-hello.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL"/>
+			<Target title="2022-circle/fast">
+				<Option output="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/2022-circle.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -2957,15 +2957,15 @@
 					<Add directory="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 2022-hello/fast"/>
-					<CompileFile command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 2022-circle/fast"/>
+					<CompileFile command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="2022-guess">
-				<Option output="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/2022-guess.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL"/>
+			<Target title="2022-sphere">
+				<Option output="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/2022-sphere.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -2976,15 +2976,15 @@
 					<Add directory="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 2022-guess"/>
-					<CompileFile command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 2022-sphere"/>
+					<CompileFile command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="2022-guess/fast">
-				<Option output="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/2022-guess.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL"/>
+			<Target title="2022-sphere/fast">
+				<Option output="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/2022-sphere.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -2995,10 +2995,10 @@
 					<Add directory="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 2022-guess/fast"/>
-					<CompileFile command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 2022-sphere/fast"/>
+					<CompileFile command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/hfwei/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/1-types-io/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="exam">
@@ -3318,11 +3318,11 @@
 		<Unit filename="D:/cpl/cpl-coding-0/2021-CPL/9-pointer-more/strlen.c">
 			<Option target="str_len"/>
 		</Unit>
-		<Unit filename="D:/cpl/cpl-coding-0/2022-CPL/guess.c">
-			<Option target="2022-guess"/>
+		<Unit filename="D:/cpl/cpl-coding-0/2022-CPL/1-types-io/circle.c">
+			<Option target="2022-circle"/>
 		</Unit>
-		<Unit filename="D:/cpl/cpl-coding-0/2022-CPL/hello.c">
-			<Option target="2022-hello"/>
+		<Unit filename="D:/cpl/cpl-coding-0/2022-CPL/1-types-io/sphere.c">
+			<Option target="2022-sphere"/>
 		</Unit>
 		<Unit filename="D:/cpl/cpl-coding-0/exam/2022sep.c">
 			<Option target="2022sep"/>
@@ -3377,6 +3377,9 @@
 		</Unit>
 		<Unit filename="D:/cpl/cpl-coding-0/2022-CPL/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\2022-CPL\"/>
+		</Unit>
+		<Unit filename="D:/cpl/cpl-coding-0/2022-CPL/1-types-io/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\2022-CPL\1-types-io\"/>
 		</Unit>
 		<Unit filename="D:/cpl/cpl-coding-0/exam/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\exam\"/>

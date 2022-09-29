@@ -1,2 +1,1 @@
-add_executable(2022-hello hello.c)
-add_executable(2022-guess guess.c)
+add_subdirectory(1-types-io)

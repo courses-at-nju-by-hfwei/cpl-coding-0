@@ -5,7 +5,7 @@
 // Created by hengxin on 10/10/21.
 //
 // Terminal: gcc sphere.c -o sphere -lm
-// CMake: target_link_libraries(admin m)
+// CMake: target_link_libraries(sphere m)
 //
 
 #include <math.h>
