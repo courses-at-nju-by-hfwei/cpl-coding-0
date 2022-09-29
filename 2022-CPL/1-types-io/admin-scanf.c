@@ -1,7 +1,5 @@
 //
-// A (naive) administration system (only for 罗大佑)
-//
-// Created by hengxin on 10/10/21.
+// Created by hengxin on 9/29/22.
 //
 
 #include <stdio.h>
@@ -9,14 +7,14 @@
 #include <ctype.h>
 
 int main() {
-  /**
+  /*
    * Name and gender
    */
   char first_name[10];
   char last_name[10];
   char gender;
 
-  /**
+  /*
    * Birthday
    */
   int birth_year;
@@ -24,21 +22,21 @@ int main() {
   int birth_day;
   char weekday[10];
 
-  /**
+  /*
    * Scores
    */
   int c_score;
   int music_score;
   int medicine_score;
 
-  /**
+  /*
    * Statistics
    */
   double mean;
   double standard_deviation;
   int rank;
 
-  /**
+  /*
    * Basic scanf:
    *
    * Tayu lo
@@ -48,21 +46,21 @@ int main() {
    * 40 100 80
    * 73.3 24.94 10%
    */
-  scanf("%9s %9s %c %d-%d-%d %9s %d %d %d %lf %lf %d%%",
-        first_name, last_name, &gender,
-        &birth_year, &birth_month, &birth_day, weekday,
-        &c_score, &music_score, &medicine_score,
-        &mean, &standard_deviation,
-        &rank);
-
-//  /**
-//   * Expected scanf
-//   */
-//  scanf("%9s %9s %c %d-%d-%d %9s %d %d %d %*lf %*lf %d%%",
+//  scanf("%9s %9s %c %d-%d-%d %9s %d %d %d %lf %lf %d%%",
 //        first_name, last_name, &gender,
 //        &birth_year, &birth_month, &birth_day, weekday,
 //        &c_score, &music_score, &medicine_score,
+//        &mean, &standard_deviation,
 //        &rank);
+
+  /*
+   * Expected scanf
+   */
+  scanf("%9s %9s %c %d-%d-%d %9s %d %d %d %*lf %*lf %d%%",
+        first_name, last_name, &gender,
+        &birth_year, &birth_month, &birth_day, weekday,
+        &c_score, &music_score, &medicine_score,
+        &rank);
 
   /**
    * Statistics

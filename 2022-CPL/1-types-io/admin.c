@@ -54,4 +54,6 @@ int main() {
          birth_month, birth_day, birth_year, weekday,
          c_score, music_score, medicine_score,
          mean, standard_deviation, rank);
+
+  return 0;
 }

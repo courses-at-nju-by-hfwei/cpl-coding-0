@@ -34,3 +34,8 @@
   - `%.2d`
   - `%.3s`
   - `%%`
+- `admin-scanf.c`
+  - copy from `admin.c`
+  - `&`
+  - `*f` vs. `*lf` (search StackOverflow)
+  - input/output indirection
