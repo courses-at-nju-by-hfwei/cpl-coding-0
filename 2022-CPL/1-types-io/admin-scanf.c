@@ -56,7 +56,7 @@ int main() {
   /*
    * Expected scanf
    */
-  scanf("%9s %9s %c %d-%d-%d %9s %d %d %d %*lf %*lf %d%%",
+  scanf("%9s %9s %c %d-%d-%d %9s %d %d %d %*f %*f %d%%",
         first_name, last_name, &gender,
         &birth_year, &birth_month, &birth_day, weekday,
         &c_score, &music_score, &medicine_score,
