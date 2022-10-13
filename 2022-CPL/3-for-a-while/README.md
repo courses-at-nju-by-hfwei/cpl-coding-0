@@ -12,9 +12,15 @@
 - double loops
 - `int is_prime = 1;`: why 1? why not 0?
 - `if (is_prime)` vs. `if (is_prime != 0)` vs. `if (is_prime == 1)`
+- testing
+  - https://www.wolframalpha.com/input?i=+primes+less+than+100000
+  - mma: `PrimePi[100000]`
+  - `number = 2`
 - `break`
-- `i * i < number`
-- [ ] `stdbool.h`
+- `i * i <= number` vs. `i * i < number`
+- `stdbool.h`
+- [x] timing
+  - `clock_t start = clock(); clock_t end = clock(); (end - start) / CLOCKS_PER_SEC`
 
 # `binary-search.c`
 - already sorted array
@@ -23,11 +29,12 @@
   - `printf`
 - `break`
 - testing
-  - [ ] the left-most/right-most one
-- learn from the standard library
+  - `1`: the leftmost/rightmost one
+  - search for the leftmost/rightmost one
+- [ ] learn from the standard library???
   - `(low + high) / 2`
-    - [ ] try it???
     - `low + (high - low) / 2`
+    - [ ] try it???
 
 ## `digits.c`
 - testing
@@ -43,8 +50,14 @@
 - preparation: scanf
 - with comments
 - `swap`
-- [ ] `while (scanf ...)`
-  - K&R C
+- `while (scanf ...)`
+  - https://en.cppreference.com/w/c/io/fscanf
+    - Number of receiving arguments successfully assigned (which may be zero in case a matching failure occurred before the first receiving argument was assigned)
+    - or `EOF` if input failure occurs before the first receiving argument was assigned
   - How to run this?
+    - Linux: `Ctrl + D` at the beginning of a line
+    - Mac: `Cmd + D` at the beginning of a line
+    - Windows: `Ctrl + Z` at the beginning of a line
 - more `printf`
 - `I/O indirection`
+  - Linux/Windows Cmd

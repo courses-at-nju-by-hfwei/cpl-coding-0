@@ -3,11 +3,13 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
 
 #define LEN 21
 char string[LEN] = "";
 
 int main() {
+  // example: nolemon,nomelon
   scanf("%20s", string);
 
 //  int len = 0;
@@ -17,10 +19,10 @@ int main() {
   int len = strlen(string);
   printf("The length of \"%s\" is %d.\n", string, len);
 
-  int is_palindrome = 1;
+  bool is_palindrome = true;
   for (int i = 0, j = len - 1; i < j; i++, j--) {
     if (string[i] != string[j]) {
-      is_palindrome = 0;
+      is_palindrome = false;
       break;
     }
   }

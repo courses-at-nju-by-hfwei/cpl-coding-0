@@ -7,14 +7,15 @@
 int numbers[LEN] = {0};
 
 int main() {
-  int len = -1;
   /*
    * Input the array
    * Note: fails to run this program in "Run" (Ctrl + D)
    * See: https://youtrack.jetbrains.com/issue/CPP-5704
    * Use "Terminal" instead.
    */
+  int len = -1;
   while (scanf("%d", &numbers[++len]) != EOF);
+//  while (scanf("%d", &numbers[++len]) == 1);
 
   for (int i = 0; i < len; i++) {
     printf("%d ", numbers[i]);

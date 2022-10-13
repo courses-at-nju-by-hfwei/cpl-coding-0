@@ -3,7 +3,6 @@
 
 #include <stdio.h>
 
-//#define LEN INT_MAX
 #define LEN 10
 int dictionary[LEN] = {1, 1, 2, 3, 5, 8, 13, 21, 34, 55};
 
@@ -19,8 +18,7 @@ int main() {
   while (low <= high) {
     // int mid = low + (high - low) / 2
     int mid = (low + high) / 2;
-    printf("low = %d \t high = %d\t mid = %d\n", low, high, mid);
-//    printf("mid = %d\n", mid);
+    printf("low = %d\t high = %d\t mid = %d\n", low, high, mid);
 
     if (key < dictionary[mid]) {
       high = mid - 1;
@@ -29,6 +27,8 @@ int main() {
     } else {
       index = mid;
       break;
+      // search for the leftmost one
+      //  high = index - 1;
     }
   }
 
