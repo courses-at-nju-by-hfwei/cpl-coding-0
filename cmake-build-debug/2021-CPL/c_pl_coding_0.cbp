@@ -5,7 +5,7 @@
 		<Option title="c_pl_coding_0"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\2021-CPL\;CMake Files\2021-CPL\0-hello\;CMake Files\2021-CPL\1-types-io\;CMake Files\2021-CPL\2-if-for-array\;CMake Files\2021-CPL\3-for-a-while\;CMake Files\2021-CPL\4-loops\;CMake Files\2021-CPL\5-function\;CMake Files\2021-CPL\6-recursion\;CMake Files\2021-CPL\7-data-types\;CMake Files\2021-CPL\8-pointer\;CMake Files\2021-CPL\9-pointer-more\;CMake Files\2021-CPL\10-struct\;CMake Files\2021-CPL\11-linkedlist\;CMake Files\2021-CPL\12-networking\;CMake Files\2022-CPL\;CMake Files\2022-CPL\0-intro\;CMake Files\2022-CPL\1-types-io\;CMake Files\2022-CPL\2-if-for-array\;CMake Files\exam\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\2021-CPL\;CMake Files\2021-CPL\0-hello\;CMake Files\2021-CPL\1-types-io\;CMake Files\2021-CPL\2-if-for-array\;CMake Files\2021-CPL\3-for-a-while\;CMake Files\2021-CPL\4-loops\;CMake Files\2021-CPL\5-function\;CMake Files\2021-CPL\6-recursion\;CMake Files\2021-CPL\7-data-types\;CMake Files\2021-CPL\8-pointer\;CMake Files\2021-CPL\9-pointer-more\;CMake Files\2021-CPL\10-struct\;CMake Files\2021-CPL\11-linkedlist\;CMake Files\2021-CPL\12-networking\;CMake Files\2022-CPL\;CMake Files\2022-CPL\0-intro\;CMake Files\2022-CPL\1-types-io\;CMake Files\2022-CPL\2-if-for-array\;CMake Files\2022-CPL\3-for-a-while\;CMake Files\exam\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/cpl/cpl-coding-0/cmake-build-debug/2021-CPL"/>
@@ -3202,6 +3202,9 @@
 		</Unit>
 		<Unit filename="D:/cpl/cpl-coding-0/2022-CPL/2-if-for-array/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\2022-CPL\2-if-for-array\"/>
+		</Unit>
+		<Unit filename="D:/cpl/cpl-coding-0/2022-CPL/3-for-a-while/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\2022-CPL\3-for-a-while\"/>
 		</Unit>
 		<Unit filename="D:/cpl/cpl-coding-0/exam/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\exam\"/>

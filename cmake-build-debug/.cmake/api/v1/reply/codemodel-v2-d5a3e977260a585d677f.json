@@ -10,7 +10,7 @@
 					[
 						1,
 						15,
-						19
+						20
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -59,7 +59,7 @@
 					"source" : "2021-CPL/0-hello",
 					"targetIndexes" : 
 					[
-						47
+						53
 					]
 				},
 				{
@@ -74,13 +74,13 @@
 					"source" : "2021-CPL/1-types-io",
 					"targetIndexes" : 
 					[
-						17,
-						18,
+						23,
 						24,
-						65,
-						72,
-						74,
-						80
+						30,
+						71,
+						78,
+						80,
+						86
 					]
 				},
 				{
@@ -95,14 +95,14 @@
 					"source" : "2021-CPL/2-if-for-array",
 					"targetIndexes" : 
 					[
-						50,
-						51,
-						52,
-						54,
+						56,
+						57,
+						58,
 						60,
-						62,
-						63,
-						87
+						66,
+						68,
+						69,
+						93
 					]
 				},
 				{
@@ -117,12 +117,12 @@
 					"source" : "2021-CPL/3-for-a-while",
 					"targetIndexes" : 
 					[
-						20,
-						31,
-						67,
-						70,
-						75,
-						81
+						26,
+						37,
+						73,
+						76,
+						81,
+						87
 					]
 				},
 				{
@@ -137,14 +137,14 @@
 					"source" : "2021-CPL/4-loops",
 					"targetIndexes" : 
 					[
-						23,
-						25,
-						27,
-						28,
 						29,
-						39,
-						56,
-						57
+						31,
+						33,
+						34,
+						35,
+						45,
+						62,
+						63
 					]
 				},
 				{
@@ -159,16 +159,16 @@
 					"source" : "2021-CPL/5-function",
 					"targetIndexes" : 
 					[
-						21,
-						40,
+						27,
 						46,
-						53,
-						58,
-						68,
-						71,
-						76,
+						52,
+						59,
+						64,
+						74,
+						77,
 						82,
-						90
+						88,
+						96
 					]
 				},
 				{
@@ -183,17 +183,17 @@
 					"source" : "2021-CPL/6-recursion",
 					"targetIndexes" : 
 					[
-						22,
-						35,
-						36,
-						37,
+						28,
+						41,
 						42,
 						43,
-						44,
-						45,
-						59,
-						64,
-						88
+						48,
+						49,
+						50,
+						51,
+						65,
+						70,
+						94
 					]
 				},
 				{
@@ -208,11 +208,11 @@
 					"source" : "2021-CPL/7-data-types",
 					"targetIndexes" : 
 					[
-						26,
-						38,
-						55,
-						73,
-						89
+						32,
+						44,
+						61,
+						79,
+						95
 					]
 				},
 				{
@@ -227,10 +227,10 @@
 					"source" : "2021-CPL/8-pointer",
 					"targetIndexes" : 
 					[
-						61,
-						69,
-						78,
-						86
+						67,
+						75,
+						84,
+						92
 					]
 				},
 				{
@@ -245,12 +245,12 @@
 					"source" : "2021-CPL/9-pointer-more",
 					"targetIndexes" : 
 					[
-						19,
-						41,
-						77,
+						25,
+						47,
 						83,
-						84,
-						85
+						89,
+						90,
+						91
 					]
 				},
 				{
@@ -265,11 +265,11 @@
 					"source" : "2021-CPL/10-struct",
 					"targetIndexes" : 
 					[
-						30,
-						32,
-						33,
-						66,
-						79
+						36,
+						38,
+						39,
+						72,
+						85
 					]
 				},
 				{
@@ -284,8 +284,8 @@
 					"source" : "2021-CPL/11-linkedlist",
 					"targetIndexes" : 
 					[
-						48,
-						49
+						54,
+						55
 					]
 				},
 				{
@@ -300,9 +300,9 @@
 					"source" : "2021-CPL/12-networking",
 					"targetIndexes" : 
 					[
-						91,
-						92,
-						93
+						97,
+						98,
+						99
 					]
 				},
 				{
@@ -311,7 +311,8 @@
 					[
 						16,
 						17,
-						18
+						18,
+						19
 					],
 					"jsonFile" : "directory-2022-CPL-Debug-a6b90da253affa6662a5.json",
 					"minimumCMakeVersion" : 
@@ -334,8 +335,8 @@
 					"source" : "2022-CPL/0-intro",
 					"targetIndexes" : 
 					[
-						3,
-						4
+						5,
+						6
 					]
 				},
 				{
@@ -352,9 +353,9 @@
 					[
 						0,
 						1,
-						2,
-						14,
-						15
+						3,
+						16,
+						20
 					]
 				},
 				{
@@ -369,15 +370,35 @@
 					"source" : "2022-CPL/2-if-for-array",
 					"targetIndexes" : 
 					[
-						5,
-						6,
 						7,
 						8,
 						9,
 						10,
 						11,
 						12,
-						13
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "2022-CPL/3-for-a-while",
+					"jsonFile" : "directory-2022-CPL.3-for-a-while-Debug-abb19d117c00543c85a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 0,
+					"source" : "2022-CPL/3-for-a-while",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						17,
+						18,
+						19,
+						21
 					]
 				},
 				{
@@ -392,8 +413,8 @@
 					"source" : "exam",
 					"targetIndexes" : 
 					[
-						16,
-						34
+						22,
+						40
 					]
 				}
 			],
@@ -412,7 +433,8 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20
 					],
 					"name" : "cpl_coding_0",
 					"targetIndexes" : 
@@ -434,7 +456,13 @@
 						14,
 						15,
 						16,
-						34
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						40
 					]
 				},
 				{
@@ -459,12 +487,6 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						17,
-						18,
-						19,
-						20,
-						21,
-						22,
 						23,
 						24,
 						25,
@@ -476,12 +498,12 @@
 						31,
 						32,
 						33,
+						34,
 						35,
 						36,
 						37,
 						38,
 						39,
-						40,
 						41,
 						42,
 						43,
@@ -534,7 +556,13 @@
 						90,
 						91,
 						92,
-						93
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99
 					]
 				}
 			],
@@ -555,10 +583,24 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 19,
+					"id" : "2022-binary-search::@af05f0c00a7c7b976244",
+					"jsonFile" : "target-2022-binary-search-Debug-b7ff239f4bbd107d835d.json",
+					"name" : "2022-binary-search",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 17,
 					"id" : "2022-circle::@5bcba36ca7a5b0f44518",
 					"jsonFile" : "target-2022-circle-Debug-de80daab13a20292b90d.json",
 					"name" : "2022-circle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "2022-digits::@af05f0c00a7c7b976244",
+					"jsonFile" : "target-2022-digits-Debug-555b58222b88220e9aec.json",
+					"name" : "2022-digits",
 					"projectIndex" : 0
 				},
 				{
@@ -646,6 +688,27 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 19,
+					"id" : "2022-palindrome::@af05f0c00a7c7b976244",
+					"jsonFile" : "target-2022-palindrome-Debug-54779ad048e7318171d6.json",
+					"name" : "2022-palindrome",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "2022-primes::@af05f0c00a7c7b976244",
+					"jsonFile" : "target-2022-primes-Debug-beee0620160c9bd7ca48.json",
+					"name" : "2022-primes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "2022-selection-sort::@af05f0c00a7c7b976244",
+					"jsonFile" : "target-2022-selection-sort-Debug-22e69657360da5892f7e.json",
+					"name" : "2022-selection-sort",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 17,
 					"id" : "2022-sphere::@5bcba36ca7a5b0f44518",
 					"jsonFile" : "target-2022-sphere-Debug-29fb4f657c33107f8b6f.json",
@@ -654,6 +717,13 @@
 				},
 				{
 					"directoryIndex" : 19,
+					"id" : "2022-stars::@af05f0c00a7c7b976244",
+					"jsonFile" : "target-2022-stars-Debug-fac5ce041cf8b7ec142f.json",
+					"name" : "2022-stars",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
 					"id" : "2022sep::@f6f017505addeb42df3e",
 					"jsonFile" : "target-2022sep-Debug-c8e37511646671036e86.json",
 					"name" : "2022sep",
@@ -779,7 +849,7 @@
 					"projectIndex" : 1
 				},
 				{
-					"directoryIndex" : 19,
+					"directoryIndex" : 20,
 					"id" : "exam::@f6f017505addeb42df3e",
 					"jsonFile" : "target-exam-Debug-5e329a079be065bb7f9f.json",
 					"name" : "exam",

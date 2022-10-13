@@ -171,6 +171,9 @@
 			"path" : "2022-CPL/2-if-for-array/CMakeLists.txt"
 		},
 		{
+			"path" : "2022-CPL/3-for-a-while/CMakeLists.txt"
+		},
+		{
 			"path" : "exam/CMakeLists.txt"
 		}
 	],
