@@ -8,7 +8,7 @@
   - [ ] file comments
 - `for (int i = 0) + for (int j = 0)`
 
-## `is-prime.c`
+## `primes.c`
 - double loops
 - `int is_prime = 1;`: why 1? why not 0?
 - `if (is_prime)` vs. `if (is_prime != 0)` vs. `if (is_prime == 1)`
