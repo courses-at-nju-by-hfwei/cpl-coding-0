@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "2022-CPL/1-types-io/2022-admin"
+			"path" : "2022-CPL/4-loops/2022-game-of-life"
 		}
 	],
 	"backtrace" : 1,
@@ -10,12 +10,11 @@
 	{
 		"commands" : 
 		[
-			"add_executable",
-			"target_link_libraries"
+			"add_executable"
 		],
 		"files" : 
 		[
-			"2022-CPL/1-types-io/CMakeLists.txt"
+			"2022-CPL/4-loops/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -25,13 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 9,
+				"line" : 1,
 				"parent" : 0
 			}
 		]
@@ -63,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "2022-admin::@5bcba36ca7a5b0f44518",
+	"id" : "2022-game-of-life::@9c8a3f3957d7afedad9c",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -75,21 +68,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "-lm",
-				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
-	"name" : "2022-admin",
-	"nameOnDisk" : "2022-admin",
+	"name" : "2022-game-of-life",
+	"nameOnDisk" : "2022-game-of-life",
 	"paths" : 
 	{
-		"build" : "2022-CPL/1-types-io",
-		"source" : "2022-CPL/1-types-io"
+		"build" : "2022-CPL/4-loops",
+		"source" : "2022-CPL/4-loops"
 	},
 	"sourceGroups" : 
 	[
@@ -106,7 +94,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "2022-CPL/1-types-io/admin.c",
+			"path" : "2022-CPL/4-loops/game-of-life.c",
 			"sourceGroupIndex" : 0
 		}
 	],

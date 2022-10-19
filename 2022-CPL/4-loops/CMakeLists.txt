@@ -1,0 +1,1 @@
+add_executable(2022-game-of-life game-of-life.c)

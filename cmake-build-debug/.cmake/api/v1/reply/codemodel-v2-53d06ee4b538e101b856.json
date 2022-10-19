@@ -10,7 +10,7 @@
 					[
 						1,
 						15,
-						20
+						21
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -59,7 +59,7 @@
 					"source" : "2021-CPL/0-hello",
 					"targetIndexes" : 
 					[
-						53
+						54
 					]
 				},
 				{
@@ -74,13 +74,13 @@
 					"source" : "2021-CPL/1-types-io",
 					"targetIndexes" : 
 					[
-						23,
 						24,
-						30,
-						71,
-						78,
-						80,
-						86
+						25,
+						31,
+						72,
+						79,
+						81,
+						87
 					]
 				},
 				{
@@ -95,14 +95,14 @@
 					"source" : "2021-CPL/2-if-for-array",
 					"targetIndexes" : 
 					[
-						56,
 						57,
 						58,
-						60,
-						66,
-						68,
+						59,
+						61,
+						67,
 						69,
-						93
+						70,
+						94
 					]
 				},
 				{
@@ -117,12 +117,12 @@
 					"source" : "2021-CPL/3-for-a-while",
 					"targetIndexes" : 
 					[
-						26,
-						37,
-						73,
-						76,
-						81,
-						87
+						27,
+						38,
+						74,
+						77,
+						82,
+						88
 					]
 				},
 				{
@@ -137,14 +137,14 @@
 					"source" : "2021-CPL/4-loops",
 					"targetIndexes" : 
 					[
-						29,
-						31,
-						33,
+						30,
+						32,
 						34,
 						35,
-						45,
-						62,
-						63
+						36,
+						46,
+						63,
+						64
 					]
 				},
 				{
@@ -159,16 +159,16 @@
 					"source" : "2021-CPL/5-function",
 					"targetIndexes" : 
 					[
-						27,
-						46,
-						52,
-						59,
-						64,
-						74,
-						77,
-						82,
-						88,
-						96
+						28,
+						47,
+						53,
+						60,
+						65,
+						75,
+						78,
+						83,
+						89,
+						97
 					]
 				},
 				{
@@ -183,17 +183,17 @@
 					"source" : "2021-CPL/6-recursion",
 					"targetIndexes" : 
 					[
-						28,
-						41,
+						29,
 						42,
 						43,
-						48,
+						44,
 						49,
 						50,
 						51,
-						65,
-						70,
-						94
+						52,
+						66,
+						71,
+						95
 					]
 				},
 				{
@@ -208,11 +208,11 @@
 					"source" : "2021-CPL/7-data-types",
 					"targetIndexes" : 
 					[
-						32,
-						44,
-						61,
-						79,
-						95
+						33,
+						45,
+						62,
+						80,
+						96
 					]
 				},
 				{
@@ -227,10 +227,10 @@
 					"source" : "2021-CPL/8-pointer",
 					"targetIndexes" : 
 					[
-						67,
-						75,
-						84,
-						92
+						68,
+						76,
+						85,
+						93
 					]
 				},
 				{
@@ -245,12 +245,12 @@
 					"source" : "2021-CPL/9-pointer-more",
 					"targetIndexes" : 
 					[
-						25,
-						47,
-						83,
-						89,
+						26,
+						48,
+						84,
 						90,
-						91
+						91,
+						92
 					]
 				},
 				{
@@ -265,11 +265,11 @@
 					"source" : "2021-CPL/10-struct",
 					"targetIndexes" : 
 					[
-						36,
-						38,
+						37,
 						39,
-						72,
-						85
+						40,
+						73,
+						86
 					]
 				},
 				{
@@ -284,8 +284,8 @@
 					"source" : "2021-CPL/11-linkedlist",
 					"targetIndexes" : 
 					[
-						54,
-						55
+						55,
+						56
 					]
 				},
 				{
@@ -300,9 +300,9 @@
 					"source" : "2021-CPL/12-networking",
 					"targetIndexes" : 
 					[
-						97,
 						98,
-						99
+						99,
+						100
 					]
 				},
 				{
@@ -312,7 +312,8 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20
 					],
 					"jsonFile" : "directory-2022-CPL-Debug-05c0c276f8f574804b98.json",
 					"minimumCMakeVersion" : 
@@ -335,8 +336,8 @@
 					"source" : "2022-CPL/0-intro",
 					"targetIndexes" : 
 					[
-						5,
-						6
+						6,
+						7
 					]
 				},
 				{
@@ -354,8 +355,8 @@
 						0,
 						1,
 						3,
-						16,
-						20
+						17,
+						21
 					]
 				},
 				{
@@ -370,7 +371,6 @@
 					"source" : "2022-CPL/2-if-for-array",
 					"targetIndexes" : 
 					[
-						7,
 						8,
 						9,
 						10,
@@ -378,7 +378,8 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16
 					]
 				},
 				{
@@ -395,10 +396,25 @@
 					[
 						2,
 						4,
-						17,
 						18,
 						19,
-						21
+						20,
+						22
+					]
+				},
+				{
+					"build" : "2022-CPL/4-loops",
+					"jsonFile" : "directory-2022-CPL.4-loops-Debug-17dfa830a2f6afb541dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 0,
+					"source" : "2022-CPL/4-loops",
+					"targetIndexes" : 
+					[
+						5
 					]
 				},
 				{
@@ -413,8 +429,8 @@
 					"source" : "exam",
 					"targetIndexes" : 
 					[
-						22,
-						40
+						23,
+						41
 					]
 				}
 			],
@@ -434,7 +450,8 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					],
 					"name" : "cpl_coding_0",
 					"targetIndexes" : 
@@ -462,7 +479,8 @@
 						20,
 						21,
 						22,
-						40
+						23,
+						41
 					]
 				},
 				{
@@ -487,7 +505,6 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						23,
 						24,
 						25,
 						26,
@@ -504,7 +521,7 @@
 						37,
 						38,
 						39,
-						41,
+						40,
 						42,
 						43,
 						44,
@@ -562,7 +579,8 @@
 						96,
 						97,
 						98,
-						99
+						99,
+						100
 					]
 				}
 			],
@@ -571,7 +589,7 @@
 				{
 					"directoryIndex" : 17,
 					"id" : "2022-admin::@5bcba36ca7a5b0f44518",
-					"jsonFile" : "target-2022-admin-Debug-a5863fbf52b8b5a24857.json",
+					"jsonFile" : "target-2022-admin-Debug-cc97a8fb4d2b86a2e4ef.json",
 					"name" : "2022-admin",
 					"projectIndex" : 0
 				},
@@ -601,6 +619,13 @@
 					"id" : "2022-digits::@af05f0c00a7c7b976244",
 					"jsonFile" : "target-2022-digits-Debug-56a927191888d4c2921b.json",
 					"name" : "2022-digits",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "2022-game-of-life::@9c8a3f3957d7afedad9c",
+					"jsonFile" : "target-2022-game-of-life-Debug-47142109f15d143b6c92.json",
+					"name" : "2022-game-of-life",
 					"projectIndex" : 0
 				},
 				{
@@ -723,7 +748,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 20,
+					"directoryIndex" : 21,
 					"id" : "2022sep::@f6f017505addeb42df3e",
 					"jsonFile" : "target-2022sep-Debug-a641d09291d25d635169.json",
 					"name" : "2022sep",
@@ -849,7 +874,7 @@
 					"projectIndex" : 1
 				},
 				{
-					"directoryIndex" : 20,
+					"directoryIndex" : 21,
 					"id" : "exam::@f6f017505addeb42df3e",
 					"jsonFile" : "target-exam-Debug-b8bd24888e6cf39c9e0d.json",
 					"name" : "exam",
@@ -1274,8 +1299,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug",
-		"source" : "/home/hengxin/Documents/cpl/cpl-coding-0"
+		"build" : "/home/hengxin/Documents/hfwei/cpl/cmake-build-debug",
+		"source" : "/home/hengxin/Documents/hfwei/cpl"
 	},
 	"version" : 
 	{
