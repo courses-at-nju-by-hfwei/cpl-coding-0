@@ -3837,6 +3837,44 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/4-loops/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="2022-bubble-sort">
+				<Option output="/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/4-loops/2022-bubble-sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/4-loops"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/4-loops/Makefile&quot;  VERBOSE=1 2022-bubble-sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/4-loops/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/4-loops/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/4-loops/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2022-bubble-sort/fast">
+				<Option output="/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/4-loops/2022-bubble-sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/4-loops"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/4-loops/Makefile&quot;  VERBOSE=1 2022-bubble-sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/4-loops/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/4-loops/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/2022-CPL/4-loops/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="exam">
 				<Option output="/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/exam/exam" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/Documents/cpl/cpl-coding-0/cmake-build-debug/exam"/>
@@ -4219,6 +4257,9 @@
 		</Unit>
 		<Unit filename="/home/hengxin/Documents/cpl/cpl-coding-0/2022-CPL/3-for-a-while/stars.c">
 			<Option target="2022-stars"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/cpl/cpl-coding-0/2022-CPL/4-loops/bubble-sort.c">
+			<Option target="2022-bubble-sort"/>
 		</Unit>
 		<Unit filename="/home/hengxin/Documents/cpl/cpl-coding-0/2022-CPL/4-loops/game-of-life.c">
 			<Option target="2022-game-of-life"/>
