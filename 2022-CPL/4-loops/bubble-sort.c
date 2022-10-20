@@ -1,6 +1,9 @@
 //
 // Created by hengxin on 10/19/22.
 //
+// For the usage of clock(),
+// please refer to https://legacy.cplusplus.com/reference/ctime/clock/.
+//
 
 #include <stdlib.h>
 #include <time.h>
