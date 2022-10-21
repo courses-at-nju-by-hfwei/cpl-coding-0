@@ -8,24 +8,25 @@
 #include <unistd.h>
 
 #define SIZE 6
-//const int board[SIZE][SIZE] = {
-//    {0},
-//    {0, 1, 1, 0, 0, 0},
-//    {0, 1, 1, 0, 0, 0},
-//    {0, 0, 0, 1, 1, 0},
-//    {0, 0, 0, 1, 1, 0},
-//    {0}
-//};
-
 const int board[SIZE][SIZE] = {
-    [1][1] = 1, [1][2] = 1,
-    [2][1] = 1, [2][2] = 1,
-    [3][3] = 1, [3][4] = 1,
-    [4][3] = 1, [4][4] = 1
+    {0},
+    {0, 1, 1, 0, 0, 0},
+    {0, 1, 1, 0, 0, 0},
+    {0, 0, 0, 1, 1, 0},
+    {0, 0, 0, 1, 1, 0},
+    {0}
 };
 
+//const int board[SIZE][SIZE] = {
+//    [1][1] = 1, [1][2] = 1,
+//    [2][1] = 1, [2][2] = 1,
+//    [3][3] = 1, [3][4] = 1,
+//    [4][3] = 1, [4][4] = 1
+//};
+
 int main() {
-  int old_board[SIZE + 2][SIZE + 2];
+  int old_board[SIZE + 2][SIZE + 2] = {0};
+
   for (int row = 0; row < SIZE + 2; row++) {
     for (int col = 0; col < SIZE + 2; col++) {
       if (row == 0 || row == SIZE + 1 || col == 0 || col == SIZE + 1) {
@@ -37,8 +38,8 @@ int main() {
   }
 
   // print the original board
-  for (int row = 1; row <= SIZE + 1; row++) {
-    for (int col = 1; col <= SIZE + 1; col++) {
+  for (int row = 1; row <= SIZE; row++) {
+    for (int col = 1; col <= SIZE; col++) {
       printf("%c ", old_board[row][col] ? '*' : ' ');
     }
     printf("\n");
@@ -73,8 +74,8 @@ int main() {
     }
 
     // print the new board
-    for (int row = 1; row <= SIZE + 1; row++) {
-      for (int col = 1; col <= SIZE + 1; col++) {
+    for (int row = 1; row <= SIZE; row++) {
+      for (int col = 1; col <= SIZE; col++) {
         printf("%c ", new_board[row][col] ? '*' : ' ');
       }
       printf("\n");
@@ -90,8 +91,8 @@ int main() {
     system("clear");
 
     // start the next round
-    for (int row = 0; row < SIZE + 2; row++) {
-      for (int col = 0; col < SIZE + 2; col++) {
+    for (int row = 1; row <= SIZE; row++) {
+      for (int col = 1; col <= SIZE; col++) {
         old_board[row][col] = new_board[row][col];
       }
     }
