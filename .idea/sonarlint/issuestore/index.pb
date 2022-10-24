@@ -22,7 +22,7 @@ K
 I
 2021-CPL/4-loops/common.c,0\f\0fae1ad150941fdcfc11e549cdcec23366e2a7ec
 O
-2022-CPL/3-for-a-while/primes.c,3/9/39528f4c794f0d379620ad791b17f924c8746c8e
+2022-CPL/3-for-a-while/primes.c,3\9\39528f4c794f0d379620ad791b17f924c8746c8e
 W
 '2022-CPL/3-for-a-while/selection-sort.c,b/1/b188bf4c648c8b2f383856b522c31aeb717b24b7
 S
@@ -33,3 +33,7 @@ K
 2022-CPL/1-types-io/admin.c,3/9/39ca8034730d7a573d66c16caab0c75a624d1756
 H
 2022-CPL/4-loops/merge.c,d/6/d6270e16636931ef688e29c06c4002ad9fd9df22
+O
+2021-CPL/4-loops/game-of-life.c,a\6\a6e95e8be8b765a77ea202403334a1de49c2ddf4
+N
+2021-CPL/4-loops/bubble-sort.c,e\e\eeaf07d920df3b67cdace780af9672e607ad4bf5

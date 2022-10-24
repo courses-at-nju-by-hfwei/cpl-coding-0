@@ -177,6 +177,9 @@
 			"path" : "2022-CPL/4-loops/CMakeLists.txt"
 		},
 		{
+			"path" : "2022-CPL/5-function/CMakeLists.txt"
+		},
+		{
 			"path" : "exam/CMakeLists.txt"
 		},
 		{
