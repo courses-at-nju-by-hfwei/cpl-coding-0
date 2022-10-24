@@ -178,6 +178,9 @@
 		},
 		{
 			"path" : "exam/CMakeLists.txt"
+		},
+		{
+			"path" : "teaching-reports/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
