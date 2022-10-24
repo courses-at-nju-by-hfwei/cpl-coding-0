@@ -21,3 +21,15 @@ K
 2021-CPL/4-loops/continue.c,e\b\eb26877447e321caa67918a9f1c15a204bb4b65e
 I
 2021-CPL/4-loops/common.c,0\f\0fae1ad150941fdcfc11e549cdcec23366e2a7ec
+O
+2022-CPL/3-for-a-while/primes.c,3/9/39528f4c794f0d379620ad791b17f924c8746c8e
+W
+'2022-CPL/3-for-a-while/selection-sort.c,b/1/b188bf4c648c8b2f383856b522c31aeb717b24b7
+S
+#2022-CPL/3-for-a-while/palindrome.c,4/2/4240327cfe15d2d7fb5eca5a3fa4faab4876a627
+V
+&2022-CPL/3-for-a-while/binary-search.c,b/a/ba6c90f91f70f342520c742be741974aad4cb208
+K
+2022-CPL/1-types-io/admin.c,3/9/39ca8034730d7a573d66c16caab0c75a624d1756
+H
+2022-CPL/4-loops/merge.c,d/6/d6270e16636931ef688e29c06c4002ad9fd9df22
