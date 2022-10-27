@@ -2,28 +2,30 @@
 //
 
 #include <stdio.h>
+#include <stdbool.h>
+
+// function declaration: function definition without the function body
+bool IsLeapYear(int year);
+
 int main() {
+  // `year`: is a local variable in the main function
+  // (1) storage duration: exist with the main function
+  // (2) scope (life time): from its definition to the end of the main function
   int year = 0;
   scanf("%d", &year);
 
-  int leap = 0;
-
-  // test: year = 25
-  // test: year = 80
-  // test: year = 100
-  // test: year = 400
-  if ((year % 4 == 0 && year % 100 != 0) ||
-      (year % 400 == 0)) {
-    leap = 1;
-  }
-
-//  if (leap == 0) {
-//    printf("The year %d is a common year.\n", year);
-//  } else {
-//    printf("The year %d is a leap year.\n", year);
-//  }
-
-  printf("The year %d is a %s year.\n", year, leap? "leap" : "common");
+  // IsLeapYear(year): call by value
+  printf("The year %d is a %s year.\n", year,
+         IsLeapYear(year) ? "leap" : "common");
 
   return 0;
+}
+
+// function definition
+// year is a formal parameter (形式参数) of the function IsLeapYear
+// (1) storage duration
+// (2) scope
+bool IsLeapYear(int year) {
+  return ((year % 4 == 0 && year % 100 != 0) ||
+      (year % 400 == 0));
 }

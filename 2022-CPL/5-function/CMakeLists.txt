@@ -1,4 +1,4 @@
-add_executable(2022-binary-search-func binary-search.c ../../misc/array.c)
+add_executable(2022-binary-search-func binary-search.c)
 add_executable(2022-bubble-sort-func bubble-sort.c)
 add_executable(2022-game-of-life-func game-of-life.c)
 add_executable(2022-guess-func guess.c)

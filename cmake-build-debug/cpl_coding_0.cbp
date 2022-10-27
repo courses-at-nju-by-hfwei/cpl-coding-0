@@ -4760,7 +4760,6 @@
 			<Option target="exam"/>
 		</Unit>
 		<Unit filename="/home/hengxin/Documents/cpl/cpl-coding-0/misc/array.c">
-			<Option target="2022-binary-search-func"/>
 			<Option target="array"/>
 		</Unit>
 		<Unit filename="/home/hengxin/Documents/cpl/cpl-coding-0/teaching-reports/primes.c">

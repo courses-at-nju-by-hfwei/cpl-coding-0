@@ -4,20 +4,17 @@
 // description: print stars pyramid
 
 #include <stdio.h>
+
+// void: return no values
+void Print(char ch, int count);
+
 int main() {
   int lines;
   scanf("%d", &lines);
 
   for (int i = 0; i < lines; ++i) {
-    // print [lines - (i + 1)] spaces
-    for (int j = 0; j < lines - (i + 1); ++j) {
-      printf(" ");
-    }
-
-    // print [2 * i + 1] spaces
-    for (int j = 0; j < 2 * i + 1; ++j) {
-      printf("*");
-    }
+    Print(' ', lines - (i + 1));
+    Print('*', 2 * i + 1);
 
     if (i < lines - 1) {
       printf("\n");
@@ -25,4 +22,10 @@ int main() {
   }
 
   return 0;
+}
+
+void Print(char ch, int count) {
+  for (int i = 0; i < count; i++) {
+    printf("%c", ch);
+  }
 }

@@ -8,27 +8,37 @@
 #define LEN 21
 char string[LEN] = "";
 
+int StrLen(const char str[]);
+bool IsPalindrome(const char str[], int len);
+
 int main() {
   // example: nolemon,nomelon
   scanf("%20s", string);
 
-//  int len = 0;
-//  while (string[len] != '\0') {
-//    len++;
-//  }
-  int len = strlen(string);
+  int len = StrLen(string);
+//  int len = strlen(string);
   printf("The length of \"%s\" is %d.\n", string, len);
 
-  bool is_palindrome = true;
+  printf("\"%s\" is%s a palindrome.\n", string,
+         IsPalindrome(string, len) ? "" : " not");
+
+  return 0;
+}
+
+int StrLen(const char str[]) {
+  int len = 0;
+  while (str[len] != '\0') {
+    len++;
+  }
+  return len;
+}
+
+bool IsPalindrome(const char str[], int len) {
   for (int i = 0, j = len - 1; i < j; i++, j--) {
-    if (string[i] != string[j]) {
-      is_palindrome = false;
-      break;
+    if (str[i] != str[j]) {
+      return false;
     }
   }
 
-  printf("\"%s\" is %s a palindrome.\n", string,
-         is_palindrome ? "" : "not");
-
-  return 0;
+  return true;
 }
