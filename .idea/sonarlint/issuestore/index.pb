@@ -37,3 +37,15 @@ O
 2021-CPL/4-loops/game-of-life.c,a\6\a6e95e8be8b765a77ea202403334a1de49c2ddf4
 N
 2021-CPL/4-loops/bubble-sort.c,e\e\eeaf07d920df3b67cdace780af9672e607ad4bf5
+J
+2021-CPL/5-function/swap.c,3\c\3cad7226d403764bb635a15e0dbb95153e0b7dc2
+R
+"2021-CPL/5-function/game-of-life.c,6\a\6a58a1197a2368ebaad44f7f69b4a2ca3f005dad
+K
+2021-CPL/5-function/merge.c,b\e\be2dfc3e768456e562a150898ebe5188c3b1a8a0
+K
+2021-CPL/5-function/stars.c,1\f\1f0e495d299e59794f754d4f4fc08021b9f54b64
+I
+teaching-reports/primes.c,4\2\42562ea2518117e17a56b5c95c11258c1bbb3de4
+<
+misc/array.c,9\6\96cfeeffd1aeb5c7cac8d8ffd8a2bf396405b8cb
