@@ -33,3 +33,7 @@ K
 2022-CPL/1-types-io/admin.c,3/9/39ca8034730d7a573d66c16caab0c75a624d1756
 H
 2022-CPL/4-loops/merge.c,d/6/d6270e16636931ef688e29c06c4002ad9fd9df22
+N
+2022-CPL/4-loops/bubble-sort.c,f/a/fabc5eab0985d97b8fc946f5f8ff5fee5605b4ae
+O
+2022-CPL/4-loops/game-of-life.c,6/d/6d7557e338c09ddeb9cf62852375be7c5735f3fd
