@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "2021-CPL/5-function/game-of-life-func.exe"
-		},
-		{
-			"path" : "2021-CPL/5-function/game-of-life-func.pdb"
+			"path" : "2021-CPL/5-function/game-of-life-func"
 		}
 	],
 	"backtrace" : 1,
@@ -71,16 +68,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "game-of-life-func",
-	"nameOnDisk" : "game-of-life-func.exe",
+	"nameOnDisk" : "game-of-life-func",
 	"paths" : 
 	{
 		"build" : "2021-CPL/5-function",

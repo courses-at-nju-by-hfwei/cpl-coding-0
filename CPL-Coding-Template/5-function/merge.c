@@ -1,6 +1,5 @@
 //
 // Created by hengxin on 10/19/22.
-// Leave as an exercise
 //
 
 #include <stdio.h>
@@ -18,10 +17,16 @@ int main() {
     if (L[l] <= R[r]) {
       printf("%d ", L[l]);
       l++;
-    } else { // L[l] > R[r]
+    } else {
       printf("%d ", R[r]);
       r++;
     }
+  }
+
+  // l >= LEN_L || r >= LEN_R
+  while (r < LEN_R) {
+    printf("%d ", R[r]);
+    r++;
   }
 
   while (l < LEN_L) {
@@ -29,10 +34,6 @@ int main() {
     l++;
   }
 
-  while (r < LEN_R) {
-    printf("%d ", R[r]);
-    r++;
-  }
 
   return 0;
 }

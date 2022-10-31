@@ -4,9 +4,14 @@
 #include <stdio.h>
 
 #define LEN 20
-int numbers[LEN] = {0};
+
+void SelectionSort(int arr[], int len);
+void Print(const int arr[], int len);
+void Swap(int left, int right);
 
 int main() {
+  int numbers[LEN] = {0};
+
   /*
    * Input the array
    * Note: fails to run this program in "Run" (Ctrl + D)
@@ -15,35 +20,47 @@ int main() {
    */
   int len = -1;
   while (scanf("%d", &numbers[++len]) != EOF);
-//  while (scanf("%d", &numbers[++len]) == 1);
 
+  Print(numbers, len);
+  SelectionSort(numbers, len);
+  Print(numbers, len);
+
+  return 0;
+}
+
+void Print(const int arr[], int len) {
+  printf("\n");
   for (int i = 0; i < len; i++) {
-    printf("%d ", numbers[i]);
+    printf("%d ", arr[i]);
   }
   printf("\n");
+}
 
-  printf("--------------------\n");
+void SelectionSort(int arr[], int len) {
   for (int i = 0; i < len; i++) {
     // find the minimum of numbers[i .. len - 1]
-    int min = numbers[i];
+    int min = arr[i];
     int min_index = i;
     for (int j = i + 1; j < len; j++) {
-      if (numbers[j] < min) {
-        min = numbers[j];
+      if (arr[j] < min) {
+        min = arr[j];
         min_index = j;
       }
     }
 
-    // swap numbers[i] and numbers[min_index]
-    int tmp = numbers[i];
-    numbers[i] = numbers[min_index];
-    numbers[min_index] = tmp;
-
-    // print it out
-    for (int i = 0; i < len; i++) {
-      printf("%d ", numbers[i]);
-    }
-    printf("\n");
-    printf("--------------------\n");
+    // swap arr[i] and arr[min_index]
+    int tmp = arr[i];
+    arr[i] = arr[min_index];
+    arr[min_index] = tmp;
+//    Swap(arr[i], arr[min_index]);
   }
+}
+
+// Warning: This Swap function does not work!!!
+// You will know why when you learn pointers in C.
+// Be patient.
+void Swap(int left, int right) {
+  int temp = left;
+  left = right;
+  right = temp;
 }

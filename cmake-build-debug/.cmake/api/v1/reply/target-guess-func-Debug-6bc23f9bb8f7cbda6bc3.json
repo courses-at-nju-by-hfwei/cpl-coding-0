@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "2021-CPL/5-function/guess-func.exe"
-		},
-		{
-			"path" : "2021-CPL/5-function/guess-func.pdb"
+			"path" : "2021-CPL/5-function/guess-func"
 		}
 	],
 	"backtrace" : 1,
@@ -71,16 +68,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "guess-func",
-	"nameOnDisk" : "guess-func.exe",
+	"nameOnDisk" : "guess-func",
 	"paths" : 
 	{
 		"build" : "2021-CPL/5-function",
