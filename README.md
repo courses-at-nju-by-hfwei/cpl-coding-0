@@ -9,3 +9,5 @@ For more, please refer to [docs.cpl.icu](http://47.122.3.40/#/resources?id=%e8%a
 # [2022-CPL](./2022-CPL)
 
 # [2021-CPL](./2021-CPL)
+
+# [CPL-Coding-Template](./CPL-Coding-Template)
