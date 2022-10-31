@@ -180,6 +180,9 @@
 			"path" : "2022-CPL/5-function/CMakeLists.txt"
 		},
 		{
+			"path" : "2022-CPL/6-recursion/CMakeLists.txt"
+		},
+		{
 			"path" : "exam/CMakeLists.txt"
 		},
 		{

@@ -6,7 +6,6 @@ add_executable(stars-func stars.c)
 add_executable(binary-search-func binary-search.c)
 add_executable(merge-func merge.c)
 add_executable(selection-sort-func selection-sort.c)
-add_executable(swap-func swap.c)
 
 add_executable(palindrome-func palindrome.c)
 
