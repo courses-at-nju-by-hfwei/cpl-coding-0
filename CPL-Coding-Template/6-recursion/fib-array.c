@@ -17,16 +17,5 @@ int main() {
   int n;
   scanf("%d", &n);
 
-  for (int i = 2; i < n; i++) {
-    fibs[i] = fibs[i - 1] + fibs[i - 2];
-	  printf("%lld ", fibs[i]);
-  }
-
-//  for (int i = 0; i < n; i++) {
-//    printf("%lld ", fibs[i]);
-//  }
-//
-//  printf("\n%lld\n", LLONG_MAX);
-
   return 0;
 }

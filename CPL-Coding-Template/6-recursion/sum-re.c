@@ -10,27 +10,8 @@
 
 #include <stdio.h>
 
-int Sum(const int numbers[], int len);
-
 int main() {
 	int numbers[] = {1, 2, 3, 4, 5};
 
-	int sum = Sum(numbers, sizeof numbers / sizeof numbers[0]);
-	printf("sum = %d\n", sum);
-
 	return 0;
-}
-
-int Sum(const int numbers[], int len) {
-	if (len == 0) {
-		return 0;
-	}
-
-//	return numbers[len - 1] + Sum(numbers, len - 1);
-
-	int partial_sum = Sum(numbers, len - 1);
-
-	int sum = numbers[len - 1] + partial_sum;
-
-	return sum;
 }
