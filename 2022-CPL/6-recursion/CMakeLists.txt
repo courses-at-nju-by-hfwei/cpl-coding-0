@@ -16,4 +16,4 @@ add_executable(2022-gcd-euclidean-re gcd-euclidean-re.c)
 
 add_executable(2022-bsearch-re bsearch-re.c)
 
-add_executable(2022-merge-sort merge-sort.c)
+add_executable(2022-mergesort mergesort.c)
