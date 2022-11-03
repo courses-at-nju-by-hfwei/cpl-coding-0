@@ -9,40 +9,17 @@
 // #define LEN 8
 #define LEN 7
 
-void MergeSort(int nums[], int left, int right);
-
-/**
- * Merge two subarrays nums[left .. mid] and nums[mid + 1 .. right]
- *
- * @param nums
- * @param left
- * @param mid
- * @param right
- */
-void Merge(int nums[], int left, int mid, int right);
-
 int main() {
   // int numbers[LEN] = {6, 5, 3, 1, 8, 7, 2, 4};
   int numbers[LEN] = {38, 27, 43, 3, 9, 82, 10};
-  MergeSort(numbers, 0, LEN - 1);
+
+  // add code here
 
   for (int i = 0; i < LEN; i++) {
     printf("%d ", numbers[i]);
   }
 
   return 0;
-}
-
-void MergeSort(int nums[], int left, int right) {
-  if (left == right) {
-    return;
-  }
-
-  int mid = (left + right) / 2;
-  MergeSort(nums, left, mid);
-  MergeSort(nums, mid + 1, right);
-
-  Merge(nums, left, mid, right);
 }
 
 void Merge(int nums[], int left, int mid, int right) {
