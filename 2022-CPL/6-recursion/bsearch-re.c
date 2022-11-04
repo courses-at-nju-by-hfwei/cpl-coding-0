@@ -43,5 +43,5 @@ int BinarySearch(int key, int dict[], int low, int high) {
     return BinarySearch(key, dict, low, mid - 1);
   }
 
-  return BinarySearch(key, dict, low + 1, high);
+  return BinarySearch(key, dict, mid + 1, high);
 }
