@@ -13,3 +13,9 @@ Y
 )2022-CPL/6-recursion/gcd-euclidean-iter.c,b\0\b085724c0e449f1d2ef4787eb0969f706ec83906
 W
 '2022-CPL/6-recursion/gcd-euclidean-re.c,5\4\54de9dab9e34bfaec2c3336059944d17f7b2c6ed
+Q
+!2021-CPL/6-recursion/bsearch-re.c,f\1\f1e81d5d96d98b303924f424cf555debfe302b0a
+Q
+!2022-CPL/6-recursion/bsearch-re.c,2\b\2b24654261a22a4ba99f5d64a9c2b81b313f00f0
+N
+2022-CPL/6-recursion/main-re.c,c\c\cc7cabd3ca13ac32d274db2da99992493b77185e
