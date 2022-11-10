@@ -1,6 +1,4 @@
 
-M
-2022-CPL/6-recursion/fib-re.c,0\5\05a5925880746e5c73e3eec6755af1045ba0b0ef
 O
 2022-CPL/6-recursion/fib-iter.c,8\8\887a748d3ebec74bc39a6d1dd82a6045fc2c11a1
 M
