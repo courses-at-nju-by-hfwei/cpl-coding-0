@@ -11,7 +11,7 @@ add_executable(2022-explict-conversion explict-conversion.c)
 
 add_executable(2022-float-limits float-limits.c)
 
-add_executable(2022-sums sum-product.c)
+add_executable(2022-sum-product sum-product.c)
 add_executable(2022-loop loop.c)
 
 add_executable(2022-compare compare.c)
