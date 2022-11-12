@@ -33,3 +33,11 @@ P
  2022-CPL/7-data-types/unsigned.c,3\d\3d80a679d5a4b7942ba1a04f62612226a3209851
 [
 +2022-CPL/7-data-types/implicit-conversion.c,5\4\5488f1d1a9c85c409fa0491468687175cf7922a4
+S
+#2022-CPL/7-data-types/sum-product.c,7\7\77ed9269da456e7600951720b56ee0444384b43c
+L
+2022-CPL/7-data-types/loop.c,f\9\f93d02a1a6e1042ffd2fef5f448cd13fc69b1467
+T
+$2022-CPL/7-data-types/float-limits.c,c\9\c93fae986612ca28d368b6cd8ff545adda9862ac
+O
+2022-CPL/7-data-types/compare.c,8\a\8afe6828d6bc4f7758caf287805db1e130de64e6
