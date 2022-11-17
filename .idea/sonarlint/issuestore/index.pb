@@ -41,3 +41,7 @@ T
 $2022-CPL/7-data-types/float-limits.c,c\9\c93fae986612ca28d368b6cd8ff545adda9862ac
 O
 2022-CPL/7-data-types/compare.c,8\a\8afe6828d6bc4f7758caf287805db1e130de64e6
+K
+2021-CPL/8-pointer/strlen.c,1\7\17d05681e4a75ebc2973490691e82ed8286b7c8e
+S
+#2021-CPL/8-pointer/selection-sort.c,f\b\fb82de7aeb964adc35704e63d794059eecf8e9b5
