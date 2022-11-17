@@ -7,7 +7,7 @@
 #define LEN 20
 int numbers[LEN] = {0};
 
-void Swap(int left, int right);
+void WrongSwap(int left, int right);
 void Print(const int arr[], int len);
 
 /**
@@ -60,7 +60,7 @@ void SelectionSort(int arr[], int len) {
     int tmp = arr[i];
     arr[i] = arr[min_index];
     arr[min_index] = tmp;
-//    Swap(arr[i], arr[min_index]);
+//    WrongSwap(arr[i], arr[min_index]);
   }
 }
 
@@ -69,7 +69,7 @@ void SelectionSort(int arr[], int len) {
  * You will know why when you learn pointers in C.
  * Be patient.
  */
-void Swap(int left, int right) {
+void WrongSwap(int left, int right) {
   int tmp = left;
   left = right;
   right = tmp;

@@ -5,9 +5,9 @@
 
 #define LEN 20
 
-void SelectionSort(int arr[], int len);
+void Swap(int left, int right);
 void Print(const int arr[], int len);
-void WrongSwap(int left, int right);
+void SelectionSort(int arr[], int len);
 
 int main() {
   int numbers[LEN] = {0};
@@ -20,12 +20,13 @@ int main() {
    */
   int len = -1;
   while (scanf("%d", &numbers[++len]) != EOF);
+//  while (scanf("%d", &numbers[++len]) == 1);
 
   Print(numbers, len);
+  // numbers: the address of the first element of the `numbers` array
+  // pass by value: the copy of the address of the first element of the `numbers` array
   SelectionSort(numbers, len);
   Print(numbers, len);
-
-  return 0;
 }
 
 void Print(const int arr[], int len) {
@@ -36,6 +37,7 @@ void Print(const int arr[], int len) {
   printf("\n");
 }
 
+// arr: the (copy of the) address of the first element of the `numbers` array
 void SelectionSort(int arr[], int len) {
   for (int i = 0; i < len; i++) {
     // find the minimum of numbers[i .. len - 1]
@@ -52,15 +54,15 @@ void SelectionSort(int arr[], int len) {
     int tmp = arr[i];
     arr[i] = arr[min_index];
     arr[min_index] = tmp;
-//    WrongSwap(arr[i], arr[min_index]);
+    // Swap(1 = arr[1], 5 = arr[5])
+//    Swap(arr[i], arr[min_index]);
   }
 }
 
-// Warning: This WrongSwap function does not work!!!
-// You will know why when you learn pointers in C.
-// Be patient.
-void WrongSwap(int left, int right) {
-  int temp = left;
+// left = 1, right = 5
+void Swap(int left, int right) {
+  int tmp = left;
   left = right;
-  right = temp;
+  right = tmp;
 }
+// left = 5, right = 1

@@ -16,12 +16,12 @@ int R[LEN_R] = {0, 2, 4, 6, 8, 10};
 /**
  * Please fill in the comment.
  *
- * @param left
+ * @param L
  * @param len_left
- * @param right
+ * @param R
  * @param len_right
  */
-void Merge(const int left[], int len_left, const int right[], int len_right);
+void Merge(const int L[], int len_left, const int R[], int len_right);
 
 int main() {
   Merge(L, LEN_L, R, LEN_R);

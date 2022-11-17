@@ -1,11 +1,30 @@
 # 8-pointer
 
-- `pointer.c`
-- `selection-sort.c`
-  - swap numbers
-- `min-max.c`
-- `selection-sort.c` again
-  - dynamic memory management
-- `selection-sort.c` again
-  - pointers and arrays
-- `strlen.c`
+## `radius.c`
+
+## Swap Numbers
+
+## Pointers and Arrays
+
+- `(int *arr)`
+- `numbers[i]`
+- `&numbers[i]`
+- `const` in `Print`
+
+## Dynamic Memory Management
+
+- `malloc.h` vs. `stdlib.h`
+- `malloc`
+  - size = 0: implementation-defined
+- `free`
+  - memory leak (heap)
+  - undefined behaviors
+    - double `free`
+    - `free` non-`malloc`
+    - dereference `free`d memory
+
+## `return`
+
+- `merge.c`
+
+## `min-max.c`

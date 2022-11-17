@@ -5,9 +5,10 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-  /********** About radius **********/
+  /********** On radius **********/
   int radius = 10;
 
   printf("radius = %d\n", radius);
@@ -23,23 +24,23 @@ int main() {
   // radius as a right value; refer to its value
   double circumference = 2 * 3.14 * radius;
   printf("radius = %d; circumference = %f\n", radius, circumference);
-  /********** About radius **********/
+  /********** On radius **********/
 
-  /********** About ptr_radius **********/
+  /********** On ptr_radius **********/
   // ptr_radius is a variable of type "pointer to int"
   int *ptr_radius = &radius;
   // ptr_radius is a variable: has its value
   printf("ptr_radius = %p\n", ptr_radius);
   // ptr_radius is a variable: has its address
   printf("The address of ptr_radius is %p\n", &ptr_radius);
-  /********** About ptr_radius **********/
+  /********** On ptr_radius **********/
 
-  /********** About *ptr_radius **********/
+  /********** On *ptr_radius **********/
 
   // IMPORTANT:
   // *ptr_radius: behaves just like radius
   // type: int; value: the value of radius; address: the address of radius
-  // *: indirection operator ("间接寻址"/"解引用"运算符)
+  // *: indirection/dereference operator ("间接寻址"/"解引用"运算符)
   printf("radius = %d\n", *ptr_radius);
   // *ptr_radius as a right value
   circumference = 2 * 3.14 * (*ptr_radius);
@@ -49,9 +50,9 @@ int main() {
   // *ptr_radius as a left value
   *ptr_radius = 30;
   printf("radius = %d\n", *ptr_radius);
-  /********** About *ptr_radius **********/
+  /********** On *ptr_radius **********/
 
-  /********** About ptr_radius again **********/
+  /********** On ptr_radius again **********/
   // ptr_radius as a left value
   int radius2 = 100;
   int *ptr_radius2 = &radius2;
@@ -60,9 +61,29 @@ int main() {
   printf("radius = %d\n", *ptr_radius);
 
   // ptr_radius as a right value
-  /********** About ptr_radius again **********/
+  /********** On ptr_radius again **********/
 
-  /********** About const **********/
 
-  /********** About const **********/
+  /********** On array names **********/
+  int numbers[5] = {0};
+  // vs. numbers[2] = {2};
+  // numbers++;
+  // numbers = &radius;
+  int *ptr_array = numbers;
+  ptr_array++;
+  /********** On array names **********/
+
+  /********** On malloc/free **********/
+  // undefined behavior
+  // free(numbers);
+  /********** On malloc/free **********/
+
+  /********** On const **********/
+  const int *ptr_radius3 = &radius;
+  // *ptr_radius3 = 50;
+  radius = 50;
+  int *ptr_radius4 = ptr_radius3;
+  *ptr_radius4 = 100;
+  printf("radius = %d\n", radius);
+  /********** On const **********/
 }
