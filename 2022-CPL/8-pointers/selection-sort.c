@@ -15,6 +15,7 @@ int main() {
   scanf("%d", &len);
 
   // void *: the type for a generic pointer (replacing char *)
+  // include stdlib.h (not malloc.h which is deprecated) for malloc
   int *numbers = malloc(len * sizeof(*numbers));
   // null pointer: not the same with any non-null pointers
   // #define NULL ((void *) 0); but do not rely on it
@@ -23,6 +24,7 @@ int main() {
     return 0;
   }
 
+  printf("Please input %d integers.\n", len);
   for (int i = 0; i < len; i++) {
     scanf("%d", numbers + i);
   }

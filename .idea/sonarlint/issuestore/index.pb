@@ -45,3 +45,7 @@ K
 2021-CPL/8-pointer/strlen.c,1\7\17d05681e4a75ebc2973490691e82ed8286b7c8e
 S
 #2021-CPL/8-pointer/selection-sort.c,f\b\fb82de7aeb964adc35704e63d794059eecf8e9b5
+H
+2022-CPL/4-loops/merge.c,d\6\d6270e16636931ef688e29c06c4002ad9fd9df22
+L
+2021-CPL/8-pointer/min-max.c,e\9\e98f691482edcd855eee3c7d65a6b1ccbdef9915
