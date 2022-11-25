@@ -4,9 +4,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define LEN 5
+#define LEN 10
 
-void Swap(char *left, char *right);
+void Swap(char **left, char **right);
 void PrintStrs(const char *str[], int len);
 void SelectionSort(char *str[], int len);
 
@@ -17,6 +17,11 @@ int main() {
       "Dou Wei",
       "Zhang Chu",
       "Li Zhi",
+      "Wan Qing",
+      "WuTiaoRen",
+      "ZuoXiao",
+      "He Mage",
+      "He Yong",
   };
 
   PrintStrs(musicians, LEN);
@@ -27,7 +32,7 @@ int main() {
 void PrintStrs(const char *str[], int len) {
   printf("\n");
   for (int i = 0; i < len; i++) {
-    printf("%s\n ", str[i]);
+    printf("%s\n", str[i]);
   }
   printf("\n");
 }
@@ -51,8 +56,8 @@ void SelectionSort(char *str[], int len) {
   }
 }
 
-void Swap(char *left, char *right) {
-  char temp = *left;
+void Swap(char **left, char **right) {
+  char *temp = *left;
   *left = *right;
   *right = temp;
 }

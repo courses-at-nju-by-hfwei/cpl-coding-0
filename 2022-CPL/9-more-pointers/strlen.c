@@ -16,7 +16,9 @@ int main() {
   // that may be stored in read-only memory
   char *ptr_msg = "Hello World!";
   // undefined behavior
-  // *ptr_msg = 'N';
+  // interpreted by signal 11: SIGSEGV
+  // SIG: Signal; SEGV: segmentation violation
+  *ptr_msg = 'N';
   // ptr_msg[0] = 'N';
   printf("%s\n", msg);
 
