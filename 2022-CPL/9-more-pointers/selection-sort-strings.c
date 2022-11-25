@@ -1,7 +1,6 @@
 // Created by hfwei on 2022/11/25.
 
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 
 #define LEN 10
