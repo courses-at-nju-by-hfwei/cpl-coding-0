@@ -22,6 +22,8 @@ int main() {
 
   printf("StrLen(%s) = %d\n", msg, StrLen(msg));
   printf("StrLenStd(%s) = %d\n", msg, StrLen(msg));
+
+  return 0;
 }
 
 int StrLen(const char *str) {
