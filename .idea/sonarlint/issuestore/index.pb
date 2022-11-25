@@ -49,3 +49,5 @@ H
 2022-CPL/4-loops/merge.c,d\6\d6270e16636931ef688e29c06c4002ad9fd9df22
 L
 2021-CPL/8-pointer/min-max.c,e\9\e98f691482edcd855eee3c7d65a6b1ccbdef9915
+T
+$2022-CPL/5-function/selection-sort.c,8\5\85a1e119e288eef96ceb3f2b65863e0b18900fb2
