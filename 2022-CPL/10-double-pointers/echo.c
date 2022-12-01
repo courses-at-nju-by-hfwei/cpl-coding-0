@@ -3,7 +3,7 @@
  *
  * Echo program (command-line) arguments.
  *
- * Created by hengxin on 12/12/21.
+ * Created by hengxin on 12/01/22.
  */
 
 #include <stdio.h>

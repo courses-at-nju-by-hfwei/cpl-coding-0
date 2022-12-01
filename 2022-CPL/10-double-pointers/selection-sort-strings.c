@@ -36,7 +36,6 @@ void PrintStrs(const char *str[], int len) {
   printf("\n");
 }
 
-// arr: the (copy of the) address of the first element of the `numbers` array
 void SelectionSort(char *str[], int len) {
   for (int i = 0; i < len; i++) {
     // find the minimum of musicians[i .. len - 1]
