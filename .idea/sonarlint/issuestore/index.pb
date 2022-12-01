@@ -51,3 +51,9 @@ L
 2021-CPL/8-pointer/min-max.c,e\9\e98f691482edcd855eee3c7d65a6b1ccbdef9915
 T
 $2022-CPL/5-function/selection-sort.c,8\5\85a1e119e288eef96ceb3f2b65863e0b18900fb2
+K
+2022-CPL/5-function/merge.c,6\0\60803c8cff0629273d125e7fb6741aa9d8ca1d2f
+K
+2022-CPL/8-pointers/merge.c,b\4\b494366f01ea7b942d197816e94b4473b82b3bc0
+Q
+!2022-CPL/9-more-pointers/strlen.c,e\5\e584bb0bd800427e6a1987f57a4bff21f1346c58
