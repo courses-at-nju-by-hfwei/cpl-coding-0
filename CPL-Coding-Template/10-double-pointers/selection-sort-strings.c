@@ -24,8 +24,6 @@ int main() {
   }
 
   Print(numbers, len);
-  // numbers: the address of the first element of the `numbers` array
-  // pass by value: the copy of the address of the first element of the `numbers` array
   SelectionSort(numbers, len);
   Print(numbers, len);
 
@@ -66,9 +64,9 @@ void Swap(int *left, int *right) {
 // "Cui Jian",
 // "Dou Wei",
 // "Zhang Chu",
-// "Li Zhi",
+// "Yao"
 // "Wan Qing",
-// "WuTiaoRen",
 // "ZuoXiao",
-// "He Mage",
-// "He Yong",
+// "ErShou Rose"
+// "Hu Mage",
+// "Li Zhi",

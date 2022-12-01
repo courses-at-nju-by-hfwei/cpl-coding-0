@@ -19,7 +19,7 @@ int main() {
       "Wan Qing",
       "WuTiaoRen",
       "ZuoXiao",
-      "He Mage",
+      "Hu Mage",
       "He Yong",
   };
 
