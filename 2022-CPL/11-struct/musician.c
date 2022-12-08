@@ -78,6 +78,8 @@ int main() {
   for (int i = 0; i < len; i++) {
     PrintMusician(musicians + i);
   }
+
+  return 0;
 }
 
 void PrintMusician(const Musician *musician) {

@@ -1,7 +1,11 @@
 ## Struct
 
 - `musician.c`
+  - `struct`
+    - scope
   - `struct musician`
+    - structure tag
+    - `struct musician` vs. `musician`
     - type & variables
     - `luo`, `cui`
     - `Musician`
@@ -17,6 +21,7 @@
     - enum vs. int
   - assignment as a whole
     - `zhang`
+    - not `!=`, `==`
     - `name` does not change
     - how to change `album`
       - `strcpy`
