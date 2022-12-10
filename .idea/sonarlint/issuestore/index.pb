@@ -75,3 +75,11 @@ R
 "2022-CPL/10-double-pointers/echo.c,1\9\192b78c8be360fa6f654ddd596de59994f1fcae1
 T
 $2022-CPL/10-double-pointers/scores.c,4\5\4579bbf86cb7cbcaed6ca131a2a1054e3d4066f7
+M
+2021-CPL/10-struct/musician.c,6\d\6d783eab9eaad1ec8187dc89c0eeca9b458d089d
+M
+2022-CPL/11-struct/musician.c,a\e\aefa3b3f7f06494ef1abdd58ce5aa8d6bf8cf81a
+W
+'2022-CPL/10-double-pointers/integrate.c,e\6\e6ff8abed2a1763a6b7ba545d23b78417b591f29
+S
+#2022-CPL/10-double-pointers/merge.c,d\7\d7b3d598f0b8b94c0630234697d312f92834c8cf
