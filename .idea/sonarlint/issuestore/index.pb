@@ -83,3 +83,9 @@ W
 '2022-CPL/10-double-pointers/integrate.c,e\6\e6ff8abed2a1763a6b7ba545d23b78417b591f29
 S
 #2022-CPL/10-double-pointers/merge.c,d\7\d7b3d598f0b8b94c0630234697d312f92834c8cf
+R
+"2022-CPL/10-double-pointers/decl.c,5\d\5d3ded18f5f1c06b675d3c02b5621abf50017c54
+N
+2021-CPL/11-linkedlist/ll/ll.c,f\e\fe04c552c59bf2db07405e2c04d5894872c60459
+N
+2021-CPL/11-linkedlist/ll/ll.h,a\6\a60a87fda73b2854f9b8ccf088d373644c5ca31f

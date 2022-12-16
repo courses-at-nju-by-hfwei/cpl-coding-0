@@ -1,0 +1,1 @@
+add_executable(2022-josephus josephus.c ll/ll.c)
