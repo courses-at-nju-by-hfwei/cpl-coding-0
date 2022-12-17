@@ -49,6 +49,7 @@ void Delete(LinkedList *list, Node *prev) {
   if (IsEmpty(list) || IsSingleton(list)) {
     list->head = NULL;
     list->tail = NULL;
+    return; // Forget to "free" the node when IsSingleton(list) is true
   }
 
   Node *cur = prev->next;
