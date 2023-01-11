@@ -1,0 +1,5 @@
+#add_subdirectory(intro)
+add_executable(list intro/list.c)
+#add_subdirectory(timing)
+add_executable(time-server timing/time-server.c)
+#add_subdirectory(dns)
