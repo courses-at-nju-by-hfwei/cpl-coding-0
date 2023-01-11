@@ -2,4 +2,6 @@
 add_executable(list intro/list.c)
 #add_subdirectory(timing)
 add_executable(time-server timing/time-server.c)
+#add_subdirectory(tcp)
+add_executable(tcp-client tcp/tcp-client.c)
 #add_subdirectory(dns)
