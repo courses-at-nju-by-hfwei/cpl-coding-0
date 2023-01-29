@@ -51,16 +51,8 @@ L
 2021-CPL/8-pointer/min-max.c,e\9\e98f691482edcd855eee3c7d65a6b1ccbdef9915
 T
 $2022-CPL/5-function/selection-sort.c,8\5\85a1e119e288eef96ceb3f2b65863e0b18900fb2
-K
-2022-CPL/5-function/merge.c,6\0\60803c8cff0629273d125e7fb6741aa9d8ca1d2f
 A
 misc/scanf-test.c,3\c\3ca68ef20a2313a5038c78ce1a2674f306b635ec
-[
-+2022-CPL/8-pointers-arrays/selection-sort.c,0\6\06482aa12fbc8c44c59d862aba4b30b4f0b6e1ff
-<
-misc/array.c,9\6\96cfeeffd1aeb5c7cac8d8ffd8a2bf396405b8cb
-S
-#2022-CPL/8-pointers-arrays/radius.c,e\7\e72ddfe834d3a1fd66cc12b9a14b8624ca050e07
 V
 &2022-CPL/9-pointers-c-strings/strcpy.c,1\2\1290095bed0fa809110700814a7f1b0d6d904dd8
 V
@@ -73,17 +65,37 @@ b
 22022-CPL/10-double-pointers/game-of-life-pointer.c,1\1\11ffcdb9eda2214388fd156e9d0ecd268c4e3613
 R
 "2022-CPL/10-double-pointers/echo.c,1\9\192b78c8be360fa6f654ddd596de59994f1fcae1
-T
-$2022-CPL/10-double-pointers/scores.c,4\5\4579bbf86cb7cbcaed6ca131a2a1054e3d4066f7
 M
 2021-CPL/10-struct/musician.c,6\d\6d783eab9eaad1ec8187dc89c0eeca9b458d089d
 M
 2022-CPL/11-struct/musician.c,a\e\aefa3b3f7f06494ef1abdd58ce5aa8d6bf8cf81a
 W
 '2022-CPL/10-double-pointers/integrate.c,e\6\e6ff8abed2a1763a6b7ba545d23b78417b591f29
-S
-#2022-CPL/10-double-pointers/merge.c,d\7\d7b3d598f0b8b94c0630234697d312f92834c8cf
 R
 "2022-CPL/10-double-pointers/decl.c,5\d\5d3ded18f5f1c06b675d3c02b5621abf50017c54
 N
 2021-CPL/11-linkedlist/ll/ll.h,a\6\a60a87fda73b2854f9b8ccf088d373644c5ca31f
+N
+2021-CPL/11-linkedlist/ll/ll.c,f\e\fe04c552c59bf2db07405e2c04d5894872c60459
+S
+#2022-CPL/8-pointers-arrays/radius.c,e\7\e72ddfe834d3a1fd66cc12b9a14b8624ca050e07
+[
++2022-CPL/8-pointers-arrays/selection-sort.c,0\6\06482aa12fbc8c44c59d862aba4b30b4f0b6e1ff
+S
+#2022-CPL/10-double-pointers/merge.c,d\7\d7b3d598f0b8b94c0630234697d312f92834c8cf
+T
+$2022-CPL/10-double-pointers/scores.c,4\5\4579bbf86cb7cbcaed6ca131a2a1054e3d4066f7
+K
+2022-CPL/5-function/merge.c,6\0\60803c8cff0629273d125e7fb6741aa9d8ca1d2f
+R
+"2022-CPL/8-pointers-arrays/merge.c,3\1\31fd4560884e5fe751adb1ac81f57ceddeaca839
+Z
+*2021-CPL/12-networking/toupper/uc-client.c,7\a\7aed9f843a488807ba10c6ce10fde9d002b4cb1f
+<
+misc/array.c,9\6\96cfeeffd1aeb5c7cac8d8ffd8a2bf396405b8cb
+N
+2022-CPL/12-linkedlist/ll/ll.c,3\9\39bab0e4fedbd6e331a6e676da48d22a27fd3de3
+N
+2022-CPL/12-linkedlist/ll/ll.h,a\1\a19b0127ae189013c7b0cc15d14b84e0fab94ce5
+Q
+!2022-CPL/12-linkedlist/josephus.c,c\2\c2c9aab1bfbb93badfe0130d8de30bbdd2fa409d
